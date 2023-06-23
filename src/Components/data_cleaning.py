@@ -12,8 +12,6 @@ Data Cleaning Process
     10. Avg Revenue of the company
     11. Count competitors if any
     12. also check null values in any step
-    
-    Pending
 '''
 
 import sys
@@ -31,6 +29,48 @@ class data_cleaning_config:
 class data_cleaning:
     def __init__(self):
         self.cleaning_config = data_cleaning_config()
+        
+    def job_title(self,title):
+        title = title.lower()
+        if ('data scientist' in title) or ('data science' in title):
+            return 'data scientist'
+        elif 'data engineer' in title:
+            return 'data engineer'
+        elif ('data analyst' in title) or ('data analysis' in title) or ('analyst' in title) or ('analytics' in title):
+            return 'data analyst'
+        elif 'machine learning' in title:
+            return 'machine learning engineer'
+        elif 'scientist' in title:
+            return 'scientist'
+        elif 'engineer' in title:
+            return 'engineer'
+        else :
+            return 'other'
+
+    def seniority(self,title):
+        title = title.lower()
+        if ('senior' in title) or ('sr' in title):
+            return 'senior'
+        elif ('junior' in title) or ('jr' in title):
+            return 'junior'
+        else:
+            return 'na'
+        
+    def ownership_simplify(self,type):
+        type = type.lower()
+        if ('unknown' in type) or ('-1' in type) or ('other' in type):
+            return 'na'
+        elif ('private' in type) or ('self-employed' in type) or ('contract' in type):
+            return 'private'
+        elif ('nonprofit' in type) or ('college' in type) or ('hospital' in type):
+            return 'nonprofit'
+        else:
+            return type
+        
+    def billion_to_million(self,rev):
+        if 'billion' in rev:
+            return 1
+        return 0
         
     def initiate_data_clening(self):
         logging.info('Data cleaning process is started...')
@@ -84,7 +124,27 @@ class data_cleaning:
             #11th Work
             df['total_competitors'] = df['Competitors'].apply(lambda x: 0 if (x=='-1') else len(x.split(',')))  
             
-            df = df.drop(['min_salary','max_salary','min_size','max_size','Founded','Competitors','Location','Headquarters'], axis=1)          
+            df['simplified_job_title'] = df['Job Title'].apply(lambda x: self.job_title(x))
+            df['seniority'] = df['Job Title'].apply(self.seniority)
+            
+            df['Company Name'] = df.apply(lambda x: x['Company Name'] if x['Rating']<0 else x['Company Name'][:-3], axis=1)
+            df['Company Name'] = df['Company Name'].apply(lambda x: x.replace('\n',''))
+            
+            df['ownership_type'] = df['Type of ownership'].apply(self.ownership_simplify)
+            
+            df['avg_revenue'] = df['Revenue'].apply(lambda x: '-1' if ('unknown' in x.lower()) else (x.replace('(USD)','').replace('$','')))
+            df['min_revenue'] = df['avg_revenue'].apply(lambda x: x.split('to')[0] if x!=-1 else '-1')
+            df['min_revenue'] = df['min_revenue'].apply(lambda x: x.replace('+ billion','').replace('million','').replace('Less than',''))
+            df['max_revenue'] = df['avg_revenue'].apply(lambda x: (x.split('to')[1]).replace('million','').replace('billion','') if (x!=-1 and len(x.split('to'))>1) else '-1')
+            
+            df['tf'] = df['avg_revenue'].apply(self.billion_to_million)
+
+            df['min_revenue'] = df.apply(lambda x: int(x.min_revenue)*1000 if (x.tf) else int(x.min_revenue), axis=1)
+            df['max_revenue'] = df.apply(lambda x: int(x.max_revenue)*1000 if (x.tf) else int(x.max_revenue), axis=1)
+            
+            df['avg_revenue'] = df[['min_revenue','max_revenue']].mean(axis=1)
+            
+            df = df.drop(['Job Title','Type of ownership','min_revenue','max_revenue','tf','Revenue','min_salary','max_salary','min_size','max_size','Founded','Competitors','Location','Headquarters'], axis=1)          
             
             df.to_csv(self.cleaning_config.clean_data_path, index=False, header=True)
             logging.info('Clean_data file is saved successfully...')
