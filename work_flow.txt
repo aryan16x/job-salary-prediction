@@ -1,0 +1,33 @@
+0/ create 2 files
+    setup.py
+    requirements.txt
+
+0/ create 1 folder
+    src
+
+0/src/ create 1 file
+    __init__.py
+
+0/src/ create 2 folders
+    Components
+    Pipe
+
+0/src/Components/ create 4 files
+    __init__.py
+    data_ingesion.py
+    data_transformation.py
+    model_traier.py
+
+0/src/Pipeline/ create 3 files
+    __init__.py
+    training_pipeline.py
+    prediction_pipeline.py
+
+0/src create 3 files
+    logger.py
+    exception.py
+    utils.py
+
+0/sec/Components create 2 files
+    data_collection.py
+    data_cleaning.py
