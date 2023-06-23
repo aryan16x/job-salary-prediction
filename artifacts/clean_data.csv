@@ -134,8 +134,6 @@ Salary Estimate,Rating,Company Name,Size,Industry,Sector,same_location,city,stat
 99.5,4.4,Direct Agents,125.5,Advertising & Marketing,Business Services,0,Culver City, CA,20,0,data engineer,na,private,37.5
 99.5,3.3,NAVEX Global,3000.5,Computer Hardware & Software,Information Technology,1,Lake Oswego, OR,11,0,data scientist,na,private,300.0
 99.5,3.2,Triplebyte,125.5,Computer Hardware & Software,Information Technology,0,Remote,,8,0,machine learning engineer,na,private,-1.0
-99.5,3.2,Triplebyte,125.5,Computer Hardware & Software,Information Technology,0,Remote,,8,0,machine learning engineer,na,private,-1.0
-99.5,4.9,Lendio,350.5,Lending,Finance,1,Lehi, UT,12,0,data engineer,senior,private,75.0
 99.5,4.2,Upstart,350.5,Lending,Finance,1,San Mateo, CA,11,0,data scientist,na,private,-1.0
 99.5,4.5,Envision LLC,350.5,Staffing & Outsourcing,Business Services,0,San Francisco, CA,29,0,data analyst,na,private,37.5
 99.5,4.8,AppLovin,350.5,Video Games,Media,1,Palo Alto, CA,11,0,data engineer,na,private,-1.0
@@ -357,11 +355,6 @@ Salary Estimate,Rating,Company Name,Size,Industry,Sector,same_location,city,stat
 134.0,5.0,Phoenix Operations Group,25.5,IT Services,Information Technology,0,Annapolis Junction, MD,12,0,data scientist,na,private,3.0
 134.0,3.9,Nolij Consulting,125.5,Consulting,Business Services,0,Falls Church, VA,11,0,data analyst,na,public,3.0
 134.0,-1.0,Hatch Data Inc,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0
-134.0,-1.0,Hatch Data Inc,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0
-134.0,-1.0,Hatch Data Inc,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0
-134.0,-1.0,Hatch Data Inc,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0
-134.0,-1.0,Hatch Data Inc,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0
-134.0,-1.0,Hatch Data Inc,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0
 134.0,3.5,Maxar Technologies,7500.5,Aerospace & Defense,Aerospace & Defense,0,Herndon, VA,-1,0,data scientist,senior,public,3500.0
 114.0,4.3,Quick Base,350.5,Enterprise Software & Network Solutions,Information Technology,1,Cambridge, MA,24,0,data scientist,na,private,-1.0
 114.0,3.7,Takeda,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Cambridge, MA,242,3,data scientist,na,public,4500.0
@@ -387,7 +380,6 @@ Salary Estimate,Rating,Company Name,Size,Industry,Sector,same_location,city,stat
 136.5,4.8,Klaviyo,350.5,Computer Hardware & Software,Information Technology,1,Boston, MA,11,0,data scientist,senior,private,-1.0
 136.5,3.8,GutCheck,125.5,Advertising & Marketing,Business Services,1,Denver, CO,14,3,data scientist,na,private,17.5
 136.5,3.6,Biogen,7500.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Cambridge, MA,45,0,data scientist,na,public,4500.0
-136.5,-1.0,HireAi,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0
 136.5,-1.0,HireAi,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0
 136.5,3.3,Tempus Labs,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Redwood City, CA,8,0,machine learning engineer,senior,private,-1.0
 136.5,4.1,Mentor Graphics,7500.5,Computer Hardware & Software,Information Technology,0,Fremont, CA,42,3,data scientist,na,public,1500.0
@@ -494,11 +486,6 @@ Salary Estimate,Rating,Company Name,Size,Industry,Sector,same_location,city,stat
 107.0,3.4,Dice.com,350.5,Staffing & Outsourcing,Business Services,0,Newton, MA,33,3,data scientist,na,subsidiary or business segment,300.0
 107.0,3.5,Gap Inc.,4999.5,"Department, Clothing, & Shoe Stores",Retail,1,San Francisco, CA,54,3,data scientist,na,public,4500.0
 107.0,4.7,"Tygart Technology, Inc",25.5,-1,-1,0,Washington, DC,-1,0,data scientist,na,private,3.0
-107.0,-1.0,Hatch Data Inc,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0
-107.0,-1.0,Hatch Data Inc,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0
-107.0,-1.0,Hatch Data Inc,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0
-107.0,-1.0,Hatch Data Inc,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0
-107.0,-1.0,Hatch Data Inc,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0
 107.0,-1.0,Hatch Data Inc,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0
 107.0,4.6,Murray Resources,25.5,Staffing & Outsourcing,Business Services,0,The Woodlands, TX,35,0,data scientist,na,private,17.5
 107.0,4.0,New York Technology Partners,125.5,Computer Hardware & Software,Information Technology,0,Seattle, WA,24,0,data scientist,na,private,17.5
