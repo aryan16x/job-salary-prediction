@@ -43,9 +43,9 @@ class data_ingesion:
 if __name__ == '__main__':
     obj = data_ingesion()
     train_data,test_data = obj.initiate_data_ingesion()
-    data_transformation = data_transformation()
-    train_arr,test_arr,preprocessor_path = data_transformation.initiate_data_transoformer(train_data, test_data)
+    data_transformationx = data_transformation()
+    train_arr,test_arr,preprocessor_path = data_transformationx.initiate_data_transoformer(train_data, test_data)
     model_trainer = model_trainer()
-    model_trainer.initiate_model_trainer(train_arr,test_arr)
+    model_trainer.initiate_model_trainer(train_arr,test_arr,preprocessor_path)
     
     

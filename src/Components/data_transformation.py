@@ -92,12 +92,11 @@ class data_transformation:
                 file_path=self.transform_config.preprocessor_ob_file_path,
                 obj = preprocessing_obj
             )
-            print("hii22")
             
             return(
                 train_arr,
                 test_arr,
-                self.transformer_config.preprocessor_ob_file_path
+                self.transform_config.preprocessor_ob_file_path
             )
             
         except Exception as e:

@@ -15,7 +15,7 @@ from xgboost import XGBRegressor
 
 from src.exception import CustomException
 from src.logger import logging
-from src.utils import save_object
+from src.utils import save_object,evaluate_models
 
 @dataclass
 class model_trainer_config:
@@ -35,9 +35,10 @@ class model_trainer:
                 test_arr[:,-1],
             )
             models = {
-                "Random Forest": RandomForestRegressor()
+                "Random Forest": RandomForestRegressor(),
+                "Linear Regression": LinearRegression()
             }
-            model_report:dict = evaluate_model(
+            model_report:dict = evaluate_models(
                 x_train=x_train,
                 y_train=y_train,
                 x_test=x_test,
