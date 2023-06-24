@@ -1,6 +1,7 @@
 import os
 import sys
 import pandas as pd
+import numpy as np
 from src.exception import CustomException
 from src.logger import logging
 from src.utils import save_object
@@ -25,22 +26,17 @@ class data_transformation:
             numerical_column = ['Rating','Size','same_location','company_age','total_competitors','avg_revenue']
             categorical_column = ['Company Name','Industry','Sector','city','state','simplified_job_title','seniority','ownership_type']
             
-            num_pipeline = Pipeline(
-                steps=[
+            num_pipeline = Pipeline([
                     ("imputer",SimpleImputer(strategy="median")),
                     ("scaler",StandardScaler())
-                ]
-            )
+            ])
             
             logging.info("Num pipelines are ready...")
             
-            cate_pipeline = Pipeline(
-                steps=[
+            cate_pipeline = Pipeline([
                     ("imputer",SimpleImputer(strategy="most_frequent")),
                     ("one_hot_encoder",OneHotEncoder()),
-                    ("scaler",StandardScaler())
-                ]
-            )
+            ])
             logging.info("Cate pipelines are ready...")
             
             logging.info("num_pipeline and cate_pipeline are ready to use...")
@@ -64,9 +60,7 @@ class data_transformation:
             
             logging.info("Train and Test data fetched successfully in data transformer...")
             
-            preprocessing_obj_train = self.get_transformation_object()
-            
-            preprocessing_obj_test = self.get_transformation_object()
+            preprocessing_obj = self.get_transformation_object()
             
             logging.info("Preprocessing objects are set...")
             
@@ -81,33 +75,30 @@ class data_transformation:
             
             # for col in x_train.columns:
             #     print(col, type(x_train[col][0]))
-                
-            print("bye")
-            x_arr = preprocessing_obj_train.transform(x_train)
-            print("hi")
+            
+            x_arr = preprocessing_obj.fit_transform(x_train)
             y_arr = np.array(y_train)
-            x_test_arr = preprocessing_obj_test.fit_transform(x_test)
+            x_test_arr = preprocessing_obj.fit_transform(x_test)
             y_test_arr = np.array(y_test)
             
-            train_arr = np.c_[x_arr,y_arr]
-            test_arr = np.c_[x_test_arr,y_test_arr]
-            
+            y_arr = y_arr.reshape((593,1))
+            y_test_arr = y_test_arr.reshape((66,1))
+            train_arr = np.concatenate((x_arr.toarray(),y_arr),axis=1)
+            test_arr = np.concatenate((x_test_arr.toarray(),y_test_arr),axis=1)
+           
             logging.info(f"Saved preprocessing object...")
             
             save_object(
-                file_path=self.data_transform_config.preprocessor_ob_file_path,
-                obj = preprocessing_obj_train
+                file_path=self.transform_config.preprocessor_ob_file_path,
+                obj = preprocessing_obj
             )
+            print("hii22")
             
             return(
                 train_arr,
                 test_arr,
-                # self.data_transformer_config.preprocessor_ob_file_path
+                self.transformer_config.preprocessor_ob_file_path
             )
             
         except Exception as e:
             CustomException(e,sys)
-            
-if __name__ == "__main__":
-    obj = data_transformation()
-    obj.initiate_data_transoformer("artifacts/train.csv","artifacts/test.csv")

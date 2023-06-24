@@ -8,7 +8,9 @@ import dill
 from src.logger import logging
 
 def save_object(file_path,obj):
+    print("lion")
     try:
+        print("hix2")
         logging.info("Saving object...")
         dir_path = os.path.dirname(file_path)
         os.makedirs(dir_path, exist_ok=True)
