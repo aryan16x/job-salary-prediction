@@ -1,0 +1,594 @@
+Rating,Company Name,Size,Industry,Sector,same_location,city,state,company_age,total_competitors,simplified_job_title,seniority,ownership_type,avg_revenue,Salary
+3.4,Edmunds.com,750.5,Internet,Information Technology,1,Santa Monica, CA,57,3,data scientist,senior,private,300.0,183.0
+3.8,Swiss Re,4999.5,Insurance Agencies & Brokerages,Insurance,0,Fort Wayne, IN,160,3,data analyst,na,public,4500.0,103.0
+4.4,Direct Agents,125.5,Advertising & Marketing,Business Services,0,Culver City, CA,20,0,data engineer,na,private,37.5,99.5
+3.8,Analysis Group,3000.5,Consulting,Business Services,1,Boston, MA,42,0,data scientist,na,private,300.0,103.0
+2.5,CareDx,25.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Brisbane, CA,-1,1,data scientist,na,private,-1.0,105.0
+2.9,SPECTRUM,4999.5,"Cable, Internet & Telephone Providers",Telecommunications,0,Maryland Heights, MO,7,0,data scientist,na,subsidiary or business segment,4500.0,99.5
+2.7,Change Healthcare,4999.5,IT Services,Information Technology,0,Lombard, IL,16,0,data scientist,na,public,-1.0,106.0
+4.2,Eversight,125.5,Enterprise Software & Network Solutions,Information Technology,1,Palo Alto, CA,10,0,data scientist,na,private,17.5,103.0
+4.2,IZEA,125.5,Advertising & Marketing,Business Services,1,Winter Park, FL,17,2,data engineer,na,public,37.5,105.0
+3.5,Benson Hill,350.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Saint Louis, MO,11,0,data scientist,senior,private,3.0,106.0
+4.0,Comtech Global Inc,125.5,"Health, Beauty, & Fitness",Consumer Services,0,Washington, DC,-1,0,data scientist,na,private,7.5,271.5
+4.4,Offerpad,350.5,Real Estate,Real Estate,1,Chandler, AZ,8,0,data scientist,na,private,-1.0,133.0
+4.0,AstraZeneca,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Gaithersburg, MD,110,3,data scientist,na,public,4500.0,114.0
+3.1,Security Finance Corporation of Spartanburg,3000.5,Lending,Finance,1,Spartanburg, SC,68,0,data analyst,na,private,-1.0,92.5
+4.0,Market America Inc,750.5,Other Retail Stores,Retail,0,Monterey, CA,31,0,data scientist,na,private,300.0,183.0
+4.4,Stratagem Group,25.5,Aerospace & Defense,Aerospace & Defense,1,Aurora, CO,16,0,machine learning engineer,na,private,-1.0,115.5
+3.7,Bayview Asset Management,3000.5,Investment Banking & Asset Management,Finance,1,Coral Gables, FL,28,0,data engineer,na,private,300.0,105.0
+4.9,The Mom Project,25.5,Staffing & Outsourcing,Business Services,0,Longmont, CO,7,0,data scientist,na,private,-1.0,89.0
+4.3,Quick Base,350.5,Enterprise Software & Network Solutions,Information Technology,1,Cambridge, MA,24,0,data scientist,na,private,-1.0,103.0
+3.8,FHLBank Pittsburgh,350.5,Banks & Credit Unions,Finance,1,Pittsburgh, PA,91,0,data analyst,na,private,1500.0,120.5
+-1.0,JKGT,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0,136.0
+3.4,Edmunds.com,750.5,Internet,Information Technology,1,Santa Monica, CA,57,3,data scientist,senior,private,300.0,103.0
+4.1,IntelliPro Group Inc.,350.5,-1,-1,1,Santa Clara, CA,-1,0,data scientist,na,private,17.5,43.5
+3.6,Twitch,3000.5,Internet,Information Technology,1,San Francisco, CA,12,0,data analyst,senior,subsidiary or business segment,-1.0,114.0
+3.9,Novartis,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Cambridge, MA,27,0,data scientist,na,public,4500.0,154.0
+4.8,Alector,125.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,South San Francisco, CA,10,0,other,na,public,-1.0,148.0
+5.0,Phoenix Operations Group,25.5,IT Services,Information Technology,0,Baltimore, MD,12,0,data scientist,na,private,3.0,107.0
+3.4,USI,3000.5,Construction,"Construction, Repair & Maintenance",0,Southfield, MI,25,0,data scientist,na,private,300.0,106.0
+3.5,Buckman,3000.5,Chemical Manufacturing,Manufacturing,1,Memphis, TN,78,0,data scientist,na,private,250500.0,76.5
+3.6,Biogen,7500.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Cambridge, MA,45,0,data scientist,na,public,4500.0,164.5
+4.0,Trexquant Investment,25.5,Investment Banking & Asset Management,Finance,0,United States,,11,0,data scientist,na,private,-1.0,43.5
+3.8,Metromile,350.5,Insurance Carriers,Insurance,1,San Francisco, CA,12,0,data scientist,senior,private,-1.0,185.0
+5.0,SSATI,25.5,Computer Hardware & Software,Information Technology,0,McLean, VA,20,0,data scientist,na,private,17.5,113.0
+2.6,Comprehensive Healthcare,750.5,Health Care Services & Hospitals,Health Care,1,Yakima, WA,52,0,data analyst,na,nonprofit,-1.0,105.0
+3.7,EGlobalTech,350.5,IT Services,Information Technology,0,Arlington, VA,19,0,data scientist,na,private,-1.0,114.0
+3.6,Jacobs,4999.5,Architectural & Engineering Services,Business Services,0,Herndon, VA,76,3,data scientist,na,public,4500.0,120.5
+3.2,The Trade Desk,3000.5,Internet,Information Technology,0,Boulder, CO,14,0,data scientist,na,public,-1.0,92.5
+3.0,TransVoyant,125.5,Enterprise Software & Network Solutions,Information Technology,1,Alexandria, VA,11,0,data scientist,na,private,-1.0,114.0
+4.1,HP Inc.,4999.5,Computer Hardware & Software,Information Technology,0,San Diego, CA,84,0,data scientist,na,public,-1.0,115.5
+2.9,Affinity Solutions,125.5,Advertising & Marketing,Business Services,1,New York, NY,25,3,data engineer,senior,private,-1.0,148.0
+3.4,Liberty Mutual Insurance,4999.5,Insurance Carriers,Insurance,0,Portsmouth, NH,111,3,machine learning engineer,na,private,4500.0,103.0
+4.0,Dynetics,3000.5,Aerospace & Defense,Aerospace & Defense,1,Huntsville, AL,49,0,scientist,na,private,300.0,136.5
+-1.0,Pactera Edge,-1.0,-1,-1,0,Redmond, WA,-1,0,data scientist,na,na,-1.0,136.0
+3.5,Benson Hill,350.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Saint Louis, MO,11,0,data scientist,senior,private,3.0,103.0
+3.1,MoTek Technologies,25.5,IT Services,Information Technology,0,Mountain View, CA,14,0,data scientist,na,private,3.0,92.5
+3.5,Dolphin,3000.5,"Hotels, Motels, & Resorts",Travel & Tourism,0,New York, NY,33,0,data scientist,na,private,-1.0,183.0
+3.7,Altus Group,3000.5,Real Estate,Real Estate,0,Irvine, CA,18,0,data scientist,na,public,300.0,120.5
+4.9,Lendio,350.5,Lending,Finance,1,Lehi, UT,12,0,data engineer,senior,private,75.0,99.5
+3.5,Central California Alliance for Health,750.5,Health Care Services & Hospitals,Health Care,1,Scotts Valley, CA,27,0,data analyst,na,nonprofit,250500.0,92.5
+3.3,Parker Hannifin,4999.5,Industrial Manufacturing,Manufacturing,1,Cleveland, OH,106,3,data scientist,na,public,4500.0,107.0
+3.4,Spectrum Communications and Consulting,125.5,Advertising & Marketing,Business Services,1,Chicago, IL,31,0,data scientist,na,private,17.5,154.0
+2.4,Crown Bioscience,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,San Diego, CA,17,0,scientist,na,private,75.0,99.5
+-1.0,Falcon IT & Staffing Solutions,-1.0,-1,-1,0,Fort Belvoir, VA,-1,0,data scientist,na,public,-1.0,106.0
+4.1,Coverent,125.5,Consulting,Business Services,1,McLean, VA,15,0,data scientist,na,private,17.5,92.5
+3.7,XPO Logistics,4999.5,Transportation Management,Transportation & Logistics,0,Lebanon, IN,12,3,data scientist,na,public,4500.0,107.0
+3.5,ThreeBridge Solutions,750.5,Consulting,Business Services,0,Alpharetta, GA,14,0,data scientist,na,private,-1.0,92.5
+3.2,AllianceBernstein,3000.5,Investment Banking & Asset Management,Finance,0,Nashville, TN,56,0,data analyst,na,public,3500.0,115.5
+3.4,FM Systems,125.5,Computer Hardware & Software,Information Technology,0,Boston, MA,39,3,data scientist,na,private,7.5,113.0
+4.7,Object Partners,125.5,Consulting,Business Services,0,Saint Louis, MO,27,2,data engineer,na,private,37.5,105.0
+4.1,Roche,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Pleasanton, CA,127,3,data scientist,senior,public,4500.0,271.5
+5.0,Phoenix Operations Group,25.5,IT Services,Information Technology,0,Annapolis Junction, MD,12,0,data scientist,na,private,3.0,134.0
+3.5,The Knot Worldwide,3000.5,Internet,Information Technology,0,Washington, DC,4,1,data scientist,na,private,-1.0,105.0
+3.9,Southwest Research Institute,3000.5,Research & Development,Business Services,1,San Antonio, TX,76,3,scientist,na,nonprofit,250500.0,89.0
+4.3,Lightspeed Systems,125.5,Computer Hardware & Software,Information Technology,1,Austin, TX,24,0,data scientist,na,private,37.5,164.5
+5.0,Blue Horizon Tek Solutions,25.5,Staffing & Outsourcing,Business Services,0,New York, NY,36,0,data scientist,na,private,-1.0,123.5
+-1.0,Sophinea,25.5,-1,-1,0,Chantilly, VA,-1,0,data scientist,na,na,-1.0,123.5
+4.2,"Insight Enterprises, Inc.",7500.5,Enterprise Software & Network Solutions,Information Technology,0,Plano, TX,35,3,data analyst,na,public,7500.0,154.0
+4.8,Klaviyo,350.5,Computer Hardware & Software,Information Technology,1,Boston, MA,11,0,data scientist,na,private,-1.0,114.0
+4.3,Visionary Integration Professionals,750.5,IT Services,Information Technology,0,Washington, DC,27,3,data scientist,na,private,300.0,136.5
+-1.0,Blue Cloak LLC,-1.0,-1,-1,0,Sterling, VA,-1,0,data scientist,na,na,-1.0,92.5
+4.5,Systems & Technology Research,350.5,Aerospace & Defense,Aerospace & Defense,1,Woburn, MA,13,0,machine learning engineer,na,private,300.0,103.0
+3.2,US Pharmacopeia,3000.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Rockville, MD,203,0,data scientist,na,nonprofit,300.0,120.5
+-1.0,Microagility,25.5,Consulting,Business Services,0,New York, NY,-1,0,data scientist,na,private,3.0,161.0
+2.8,Formation,125.5,Enterprise Software & Network Solutions,Information Technology,1,San Francisco, CA,8,0,data scientist,na,private,-1.0,154.0
+4.5,Demandbase,350.5,Computer Hardware & Software,Information Technology,1,San Francisco, CA,17,3,data scientist,na,private,300.0,133.0
+4.3,Joby Aviation,125.5,-1,-1,0,San Carlos, CA,-1,0,data scientist,na,private,-1.0,183.0
+5.0,Phoenix Operations Group,25.5,IT Services,Information Technology,0,Baltimore, MD,12,0,data scientist,na,private,3.0,92.5
+4.5,Kingfisher Systems,125.5,Federal Agencies,Government,0,McLean, VA,18,0,data scientist,na,private,37.5,185.0
+3.9,Navy Federal Credit Union,4999.5,Banks & Credit Unions,Finance,0,Merrifield, VA,90,0,data engineer,na,na,-1.0,136.5
+3.9,Life360,125.5,Internet,Information Technology,1,San Francisco, CA,15,0,data analyst,senior,public,-1.0,76.5
+3.3,Tempus Labs,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Redwood City, CA,8,0,machine learning engineer,senior,private,-1.0,136.5
+4.5,Johns Hopkins University Applied Physics Laboratory,7500.5,Aerospace & Defense,Aerospace & Defense,1,Laurel, MD,81,3,scientist,na,nonprofit,1500.0,106.0
+4.6,Centauri,750.5,Aerospace & Defense,Aerospace & Defense,0,Reston, VA,24,3,data scientist,na,private,300.0,113.0
+3.9,Novartis,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Cambridge, MA,27,0,data scientist,senior,public,4500.0,113.0
+3.3,BWX Technologies,7500.5,Aerospace & Defense,Aerospace & Defense,0,Oak Ridge, TN,173,0,data scientist,na,public,250500.0,76.5
+4.5,Novetta,750.5,Enterprise Software & Network Solutions,Information Technology,0,Herndon, VA,11,3,data scientist,na,private,300.0,92.5
+3.9,Mars,4999.5,Food & Beverage Manufacturing,Manufacturing,0,New York, NY,112,0,data scientist,na,private,4500.0,123.5
+5.0,Phoenix Operations Group,25.5,IT Services,Information Technology,0,Baltimore, MD,12,0,data scientist,na,private,3.0,123.5
+2.7,TBWA\Chiat\Day,3000.5,Advertising & Marketing,Business Services,1,New York, NY,55,0,data scientist,na,public,300.0,92.5
+4.6,Blend360,125.5,Consulting,Business Services,1,Columbia, MD,21,0,data scientist,na,private,-1.0,134.0
+5.0,"The Drive Media, Inc.",-1.0,-1,-1,0,New York, NY,-1,0,data scientist,na,na,-1.0,107.0
+3.5,Aptive,125.5,Consulting,Business Services,0,Washington, DC,11,0,data scientist,na,private,37.5,271.5
+4.4,Intuit - Data,7500.5,Computer Hardware & Software,Information Technology,0,San Diego, CA,40,3,data scientist,na,public,3500.0,115.5
+4.0,Noblis,3000.5,Consulting,Business Services,1,Reston, VA,27,3,data scientist,na,nonprofit,300.0,115.5
+4.0,Autodesk,7500.5,Computer Hardware & Software,Information Technology,0,San Francisco, CA,41,0,data analyst,senior,public,3500.0,133.0
+3.8,Dermalogica,350.5,Consumer Products Manufacturing,Manufacturing,1,Carson, CA,37,3,data analyst,na,subsidiary or business segment,300.0,113.0
+3.8,PayPal,4999.5,Internet,Information Technology,0,Texas,,25,3,data scientist,na,public,4500.0,97.0
+3.5,iRobot,3000.5,Consumer Electronics & Appliances Stores,Retail,1,Bedford, MA,33,0,data scientist,na,public,1500.0,154.0
+3.9,Mars,4999.5,Food & Beverage Manufacturing,Manufacturing,0,United States,,112,0,data scientist,na,private,4500.0,105.0
+4.7,"Tygart Technology, Inc",25.5,-1,-1,0,Washington, DC,-1,0,data scientist,na,private,3.0,107.0
+3.5,Maxar Technologies,7500.5,Aerospace & Defense,Aerospace & Defense,0,McLean, VA,-1,0,data engineer,na,public,3500.0,148.0
+3.4,USI,3000.5,Construction,"Construction, Repair & Maintenance",0,Southfield, MI,25,0,data scientist,na,private,300.0,43.5
+4.0,Netskope,750.5,Enterprise Software & Network Solutions,Information Technology,1,Santa Clara, CA,11,3,data scientist,na,private,-1.0,134.0
+3.4,Solving IT International Inc,750.5,-1,-1,1,Chicago, IL,-1,0,data scientist,na,private,-1.0,113.0
+3.3,The Davey Tree Expert Company,4999.5,Timber Operations,Agriculture & Forestry,1,Kent, OH,143,2,data scientist,na,private,1500.0,113.0
+3.3,Tempo Automation,125.5,Electrical & Electronic Manufacturing,Manufacturing,1,San Francisco, CA,10,0,data scientist,senior,private,7.5,99.5
+3.4,Trident Systems Inc,125.5,Aerospace & Defense,Aerospace & Defense,1,Fairfax, VA,38,0,data scientist,na,private,37.5,106.0
+5.0,Arsenal Biosciences,125.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,South San Francisco, CA,4,0,scientist,na,private,-1.0,103.0
+2.6,Cenlar,3000.5,-1,-1,1,Ewing, NJ,65,0,data analyst,na,private,300.0,103.0
+3.7,Caterpillar,4999.5,Industrial Manufacturing,Manufacturing,0,Peoria, IL,98,3,data analyst,na,public,4500.0,105.0
+2.3,United BioSource,3000.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Blue Bell, PA,20,2,data analyst,senior,na,300.0,133.0
+3.6,T. Rowe Price,7500.5,Investment Banking & Asset Management,Finance,1,Baltimore, MD,86,0,data analyst,na,public,3500.0,97.0
+3.4,Spectrum Communications and Consulting,125.5,Advertising & Marketing,Business Services,1,Chicago, IL,31,0,data engineer,na,private,17.5,148.0
+3.7,Via Transportation,750.5,Internet,Information Technology,1,New York, NY,11,0,data scientist,na,private,-1.0,105.0
+4.7,1904labs,125.5,IT Services,Information Technology,1,Saint Louis, MO,7,2,data scientist,na,private,-1.0,154.0
+4.8,Klaviyo,350.5,Computer Hardware & Software,Information Technology,1,Boston, MA,11,0,data scientist,na,private,-1.0,92.5
+4.0,Travelers,4999.5,Insurance Carriers,Insurance,1,Hartford, CT,170,0,data engineer,na,public,4500.0,89.0
+4.7,New Relic,3000.5,Computer Hardware & Software,Information Technology,0,Portland, OR,15,3,data scientist,na,public,300.0,164.5
+-1.0,B4Corp,125.5,IT Services,Information Technology,0,Reston, VA,-1,0,data scientist,na,private,-1.0,113.0
+3.9,Southwest Research Institute,3000.5,Research & Development,Business Services,0,Oklahoma City, OK,76,3,scientist,na,nonprofit,250500.0,92.5
+3.2,ConsumerTrack,125.5,Internet,Information Technology,0,California,,19,0,data scientist,na,private,37.5,106.0
+4.0,AstraZeneca,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Gaithersburg, MD,110,3,data scientist,na,public,4500.0,106.0
+3.6,Buckman,750.5,Federal Agencies,Government,0,Memphis, TN,56,0,machine learning engineer,na,nonprofit,75.0,76.5
+3.7,Booz Allen Hamilton Inc.,4999.5,Consulting,Business Services,0,Oxnard, CA,109,3,data scientist,na,public,7500.0,161.0
+3.2,Postmates - Corporate HQ,3000.5,Express Delivery Services,Transportation & Logistics,1,San Francisco, CA,12,3,data scientist,na,private,-1.0,161.0
+4.9,The Mom Project,25.5,Staffing & Outsourcing,Business Services,0,Longmont, CO,7,0,data scientist,na,private,-1.0,105.0
+5.0,Royce Geospatial,125.5,Aerospace & Defense,Aerospace & Defense,0,Springfield, VA,9,0,data scientist,na,private,17.5,161.0
+4.2,Centraprise,125.5,IT Services,Information Technology,0,Foster City, CA,-1,0,data scientist,na,private,0.0,92.5
+3.8,GutCheck,125.5,Advertising & Marketing,Business Services,1,Denver, CO,14,3,data scientist,senior,private,17.5,136.0
+3.3,Amyris,350.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Emeryville, CA,20,0,data scientist,na,public,300.0,105.0
+3.5,Guardian Life,7500.5,Insurance Carriers,Insurance,0,Appleton, WI,163,1,data analyst,na,private,7500.0,154.0
+3.7,MassMutual,7500.5,Insurance Carriers,Insurance,0,Boston, MA,172,0,other,na,private,4500.0,89.0
+-1.0,Point72 Ventures,-1.0,-1,-1,0,Palo Alto, CA,-1,0,data scientist,na,na,-1.0,134.0
+3.4,Dice.com,350.5,Staffing & Outsourcing,Business Services,0,Newton, MA,33,3,data scientist,na,subsidiary or business segment,300.0,92.5
+3.9,Southwest Research Institute,3000.5,Research & Development,Business Services,0,Oklahoma City, OK,76,3,scientist,na,nonprofit,250500.0,123.5
+3.3,Hackensack Meridian Health,4999.5,Health Care Services & Hospitals,Health Care,1,Edison, NJ,-1,0,data scientist,na,nonprofit,7500.0,92.5
+3.5,Leidos,4999.5,Aerospace & Defense,Aerospace & Defense,0,Arlington, VA,54,0,data scientist,na,public,4500.0,183.0
+4.6,Itlize Global,350.5,IT Services,Information Technology,1,Piscataway, NJ,13,0,data scientist,na,private,17.5,120.5
+4.8,AppLovin,350.5,Video Games,Media,1,Palo Alto, CA,11,0,data engineer,na,private,-1.0,99.5
+4.0,AstraZeneca,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,New York, NY,110,3,data scientist,senior,public,4500.0,183.0
+3.7,Mteq,750.5,Aerospace & Defense,Aerospace & Defense,0,Fort Belvoir, VA,69,2,machine learning engineer,na,public,300.0,113.0
+4.0,AstraZeneca,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Gaithersburg, MD,110,3,data scientist,na,public,4500.0,92.5
+5.0,Phoenix Operations Group,25.5,IT Services,Information Technology,0,Annapolis Junction, MD,12,0,data scientist,na,private,3.0,43.5
+3.6,XSELL Technologies,125.5,Enterprise Software & Network Solutions,Information Technology,1,Chicago, IL,9,0,data scientist,na,private,-1.0,154.0
+3.5,Exponent,3000.5,Consulting,Business Services,0,Phoenix, AZ,56,0,scientist,na,public,300.0,154.0
+4.4,Knowesis Inc.,125.5,Consulting,Business Services,0,Falls Church, VA,16,3,data scientist,na,private,37.5,92.5
+3.5,"Farmer's Business Network, Inc.",350.5,Farm Support Services,Agriculture & Forestry,1,San Carlos, CA,9,0,data scientist,na,private,-1.0,106.0
+-1.0,Kehe Food Distributors,-1.0,-1,-1,0,Naperville, IL,-1,0,data scientist,na,na,-1.0,136.0
+-1.0,CompuForce,-1.0,-1,-1,1,New York, NY,-1,0,data scientist,na,private,-1.0,271.5
+4.3,Lightspeed Systems,125.5,Computer Hardware & Software,Information Technology,1,Austin, TX,24,0,data scientist,na,private,37.5,105.0
+5.0,Maxiom,25.5,-1,-1,1,Ashburn, VA,-1,0,data scientist,na,public,-1.0,106.0
+3.9,ALTA IT Services,350.5,IT Services,Information Technology,0,Woodlawn, MD,19,0,data scientist,na,private,17.5,185.0
+3.6,Alion Science & Technology,3000.5,Research & Development,Business Services,0,Linthicum Heights, MD,22,0,data engineer,na,private,1500.0,92.5
+4.6,GreatAmerica Financial Services,750.5,Lending,Finance,1,Cedar Rapids, IA,31,0,data analyst,na,private,300.0,76.5
+3.7,MassMutual,7500.5,Insurance Carriers,Insurance,0,Boston, MA,172,0,other,na,private,4500.0,114.0
+3.6,Merrick Bank,350.5,Banks & Credit Unions,Finance,0,Utah,,26,0,data scientist,senior,private,-1.0,105.0
+3.2,"Metronome, LLC",125.5,IT Services,Information Technology,0,Vienna, VA,12,0,data scientist,na,private,17.5,120.5
+3.5,Robert Half,4999.5,Staffing & Outsourcing,Business Services,0,Manchester, NH,75,2,data scientist,na,public,3500.0,161.0
+5.0,LifeOmic,125.5,Enterprise Software & Network Solutions,Information Technology,0,Raleigh, NC,7,0,machine learning engineer,senior,private,-1.0,148.0
+3.2,First Health Group,4999.5,Insurance Carriers,Insurance,0,Wellesley, MA,170,1,data scientist,na,private,4500.0,114.0
+4.5,Kingfisher Systems,125.5,Federal Agencies,Government,0,McLean, VA,18,0,data scientist,na,private,37.5,154.0
+3.9,Natera,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,San Carlos, CA,19,3,data analyst,na,public,300.0,76.5
+3.9,Brillient,750.5,IT Services,Information Technology,0,Silver Spring, MD,17,0,data scientist,na,private,37.5,89.0
+3.8,MIT Lincoln Laboratory,3000.5,Aerospace & Defense,Aerospace & Defense,1,Lexington, MA,72,0,data scientist,na,nonprofit,-1.0,120.5
+3.8,Evidera,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Bethesda, MD,10,2,scientist,na,subsidiary or business segment,300.0,76.5
+4.2,UST Global,4999.5,IT Services,Information Technology,0,Atlanta, GA,24,3,data scientist,na,private,1500.0,114.0
+4.2,bioMérieux,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Saint Louis, MO,60,0,data scientist,senior,private,3500.0,99.5
+3.4,Allied Solutions,3000.5,Insurance Agencies & Brokerages,Insurance,1,Carmel, IN,22,3,data analyst,na,subsidiary or business segment,300.0,105.0
+3.5,Evolve Vacation Rental,350.5,Travel Agencies,Travel & Tourism,1,Denver, CO,12,0,data scientist,senior,private,-1.0,114.0
+4.2,ManTech,7500.5,Research & Development,Business Services,0,Alexandria, VA,55,0,data scientist,senior,public,1500.0,105.0
+3.0,Indigo Slate,125.5,Consulting,Business Services,1,Bellevue, WA,17,0,data scientist,na,private,17.5,114.0
+3.3,Tempus Labs,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Chicago, IL,8,0,machine learning engineer,na,private,-1.0,105.0
+3.7,Blue Cross and Blue Shield of North Carolina,3000.5,Insurance Carriers,Insurance,1,Durham, NC,90,0,data analyst,na,private,7500.0,113.0
+4.3,The Buffalo Group,750.5,IT Services,Information Technology,0,Fort Belvoir, VA,13,3,data analyst,senior,private,300.0,89.0
+4.1,Kforce,4999.5,Staffing & Outsourcing,Business Services,0,Fairfax, VA,57,0,data scientist,na,public,1500.0,89.0
+4.7,Sage Intacct,750.5,Computer Hardware & Software,Information Technology,0,San Francisco, CA,24,0,machine learning engineer,na,subsidiary or business segment,-1.0,76.5
+4.4,Guzman & Griffin Technologies (GGTI),25.5,Federal Agencies,Government,0,Washington, DC,26,0,data scientist,na,private,-1.0,154.0
+2.9,Affinity Solutions,125.5,Advertising & Marketing,Business Services,0,San Jose, CA,25,3,data engineer,na,private,-1.0,107.0
+3.6,Constant Contact,-1.0,Advertising & Marketing,Business Services,1,Waltham, MA,28,3,data scientist,na,subsidiary or business segment,-1.0,107.0
+3.9,Life360,125.5,Internet,Information Technology,1,San Francisco, CA,15,0,data analyst,senior,public,-1.0,97.0
+3.8,Brighthouse Financial,3000.5,Insurance Carriers,Insurance,1,Charlotte, NC,6,0,data analyst,na,public,-1.0,97.0
+4.8,Klaviyo,350.5,Computer Hardware & Software,Information Technology,1,Boston, MA,11,0,machine learning engineer,na,private,-1.0,105.0
+3.9,Temboo,25.5,IT Services,Information Technology,1,New York, NY,-1,0,machine learning engineer,na,private,-1.0,164.5
+3.2,AllianceBernstein,3000.5,Investment Banking & Asset Management,Finance,0,Nashville, TN,56,0,data analyst,na,public,3500.0,115.5
+3.3,Americo Life,350.5,Insurance Carriers,Insurance,1,Kansas City, MO,31,0,data engineer,na,private,300.0,123.5
+3.9,Southwest Research Institute,3000.5,Research & Development,Business Services,0,Oklahoma City, OK,76,3,scientist,na,nonprofit,250500.0,271.5
+4.8,Acuity Insurance,3000.5,Insurance Carriers,Insurance,1,Sheboygan, WI,98,0,data scientist,senior,private,1500.0,103.0
+4.7,Oversight Systems,125.5,Computer Hardware & Software,Information Technology,1,Atlanta, GA,20,0,data scientist,na,private,37.5,107.0
+3.1,Healthfirst,3000.5,Insurance Carriers,Insurance,1,New York, NY,30,3,data scientist,senior,nonprofit,-1.0,154.0
+-1.0,Clear Ridge Defense,25.5,-1,-1,0,Quantico, VA,-1,0,data scientist,na,private,-1.0,136.0
+3.5,Cambridge FX,350.5,Financial Transaction Processing,Finance,0,Atlanta, GA,31,0,data scientist,na,public,300.0,185.0
+3.1,Werner Enterprises Inc,4999.5,Logistics & Supply Chain,Transportation & Logistics,1,Omaha, NE,67,0,data scientist,na,public,3500.0,106.0
+3.5,Maxar Technologies,7500.5,Aerospace & Defense,Aerospace & Defense,0,Herndon, VA,-1,0,data scientist,na,public,3500.0,123.5
+4.0,ClearEdge,125.5,Computer Hardware & Software,Information Technology,1,Annapolis Junction, MD,21,0,data scientist,na,private,7.5,115.5
+-1.0,"Encode, Inc.",25.5,IT Services,Information Technology,0,Norfolk, VA,-1,0,data scientist,na,private,7.5,97.0
+-1.0,Hatch Data Inc,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0,134.0
+4.5,Maven Wave Partners,350.5,Consulting,Business Services,1,Chicago, IL,15,0,data scientist,na,private,75.0,106.0
+3.8,NYSTEC,125.5,Consulting,Business Services,0,New York, NY,27,3,data analyst,na,nonprofit,37.5,164.5
+3.4,Plymouth Rock Assurance,3000.5,Insurance Carriers,Insurance,0,Woodbridge, NJ,41,2,data scientist,na,private,17.5,99.5
+4.5,Johns Hopkins University Applied Physics Laboratory,7500.5,Aerospace & Defense,Aerospace & Defense,1,Laurel, MD,81,3,scientist,na,nonprofit,1500.0,134.0
+3.3,Tempus Labs,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Redwood City, CA,8,0,data scientist,na,private,-1.0,107.0
+4.2,UST Global,4999.5,IT Services,Information Technology,0,Atlanta, GA,24,3,data scientist,na,private,1500.0,106.0
+3.3,The Davey Tree Expert Company,4999.5,Timber Operations,Agriculture & Forestry,1,Kent, OH,143,2,data scientist,na,private,1500.0,92.5
+4.1,Shape Security,125.5,IT Services,Information Technology,0,Santa Clara, CA,12,0,data engineer,na,private,-1.0,120.5
+3.5,Alignment Healthcare,750.5,Health Care Services & Hospitals,Health Care,1,Orange, CA,10,0,data engineer,na,private,-1.0,114.0
+4.8,Klaviyo,350.5,Computer Hardware & Software,Information Technology,1,Boston, MA,11,0,data scientist,senior,private,-1.0,103.0
+3.3,Puget Sound Energy,3000.5,Utilities,"Oil, Gas, Energy & Utilities",0,Bothell, WA,24,0,data scientist,na,private,3500.0,120.5
+3.8,Rubius Therapeutics,350.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Smithfield, RI,10,0,scientist,na,public,300.0,76.5
+2.7,1-800-Flowers,3000.5,Wholesale,Business Services,0,New York, NY,47,0,data scientist,na,public,1500.0,136.0
+3.4,Peraton,3000.5,Aerospace & Defense,Aerospace & Defense,0,Chantilly, VA,6,0,data scientist,na,private,1500.0,164.5
+2.9,hc1,125.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Indianapolis, IN,12,0,data engineer,na,private,17.5,115.5
+3.7,Fleetcor,7500.5,Financial Transaction Processing,Finance,1,Atlanta, GA,23,0,data scientist,na,public,3500.0,43.5
+4.6,HAN IT Staffing Inc.,125.5,IT Services,Information Technology,0,New York, NY,11,0,data scientist,na,private,-1.0,89.0
+3.6,Biogen,7500.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Cambridge, MA,45,0,data scientist,na,public,4500.0,136.5
+4.2,ManTech,7500.5,Research & Development,Business Services,0,Alexandria, VA,55,0,data scientist,senior,public,1500.0,114.0
+-1.0,"Rainmaker Resources, LLC",25.5,-1,-1,1,Cincinnati, OH,-1,0,data scientist,na,private,-1.0,185.0
+2.9,"Pragmatics, Inc.",350.5,IT Services,Information Technology,0,United States,,38,0,data scientist,na,private,300.0,106.0
+3.2,Kollasoft Inc.,25.5,IT Services,Information Technology,0,United States,,-1,0,data scientist,na,private,3.0,185.0
+4.7,Sharpedge Solutions Inc,-1.0,Publishing,Media,0,Seattle, WA,-1,0,data scientist,na,private,0.0,271.5
+3.9,GSK,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Richmond, VA,193,3,scientist,na,public,4500.0,185.0
+2.7,Advanced BioScience Laboratories,350.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Rockville, MD,62,0,scientist,na,private,75.0,99.5
+3.4,Montway Inc,125.5,Shipping,Transportation & Logistics,1,Schaumburg, IL,17,0,data analyst,na,private,-1.0,115.5
+4.1,Apple,4999.5,Computer Hardware & Software,Information Technology,0,Santa Clara, CA,47,3,machine learning engineer,na,public,4500.0,89.0
+3.9,Navy Federal Credit Union,4999.5,Banks & Credit Unions,Finance,0,Merrifield, VA,90,0,data analyst,na,na,-1.0,148.0
+4.0,Genentech,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,South San Francisco, CA,47,0,scientist,na,subsidiary or business segment,4500.0,76.5
+3.8,Juniper Networks,7500.5,Telecommunications Services,Telecommunications,0,Cupertino, CA,27,0,data scientist,senior,public,3500.0,136.0
+4.7,Compass Consulting Group,125.5,Consulting,Business Services,0,Thousand Oaks, CA,15,0,data scientist,na,private,-1.0,114.0
+4.4,"SolutionIT, Inc.",125.5,-1,-1,0,Edison, NJ,-1,0,data scientist,na,private,-1.0,136.0
+4.0,Noblis,3000.5,Consulting,Business Services,0,Bridgeport, WV,27,3,data scientist,na,nonprofit,300.0,114.0
+3.3,Cubic,7500.5,Aerospace & Defense,Aerospace & Defense,0,United States,,72,3,data scientist,na,public,1500.0,114.0
+5.0,"Expedition Technology, Inc.",25.5,Aerospace & Defense,Aerospace & Defense,0,Herndon, VA,10,0,machine learning engineer,na,private,17.5,99.5
+3.3,MITRE,7500.5,Federal Agencies,Government,0,McLean, VA,65,3,data scientist,na,nonprofit,1500.0,99.5
+3.9,Southwest Research Institute,3000.5,Research & Development,Business Services,0,Oklahoma City, OK,76,3,scientist,na,nonprofit,250500.0,114.0
+3.5,Tower Health,7500.5,Health Care Services & Hospitals,Health Care,0,West Grove, PA,6,0,scientist,na,nonprofit,-1.0,154.0
+3.3,Midland Credit Management,3000.5,Banks & Credit Unions,Finance,1,San Diego, CA,70,1,data analyst,na,subsidiary or business segment,1500.0,133.0
+3.4,Infinitive Inc,350.5,Enterprise Software & Network Solutions,Information Technology,0,McLean, VA,26,0,data scientist,na,private,17.5,89.0
+3.7,PNNL,3000.5,Energy,"Oil, Gas, Energy & Utilities",1,Richland, WA,58,3,data scientist,na,government,250500.0,154.0
+4.7,Oversight Systems,125.5,Computer Hardware & Software,Information Technology,1,Atlanta, GA,20,0,data scientist,na,private,37.5,154.0
+4.1,A-Line Staffing Solutions,750.5,Staffing & Outsourcing,Business Services,0,Durham, NC,19,0,data scientist,na,private,-1.0,136.0
+3.3,Tempus Labs,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Redwood City, CA,8,0,machine learning engineer,na,private,-1.0,133.0
+-1.0,B4Corp,125.5,IT Services,Information Technology,0,Reston, VA,-1,0,data scientist,na,private,-1.0,106.0
+3.5,Allen Institute,350.5,Research & Development,Business Services,1,Seattle, WA,20,0,machine learning engineer,na,nonprofit,300.0,114.0
+3.9,Trace Data,125.5,Insurance Carriers,Insurance,0,Oakland, CA,23,0,data scientist,na,private,17.5,107.0
+3.2,State of Virginia,4999.5,State & Regional Agencies,Government,1,Richmond, VA,235,0,data scientist,na,government,4500.0,183.0
+3.3,ICW Group,750.5,Insurance Carriers,Insurance,1,San Diego, CA,51,3,data scientist,na,private,250500.0,164.5
+5.0,SkillSoniq,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,public,-1.0,120.5
+4.5,Novetta,750.5,Enterprise Software & Network Solutions,Information Technology,0,Herndon, VA,11,3,data scientist,na,private,300.0,133.0
+4.7,1904labs,125.5,IT Services,Information Technology,1,Saint Louis, MO,7,2,data scientist,na,private,-1.0,99.5
+4.4,Rocket Lawyer,125.5,Computer Hardware & Software,Information Technology,1,San Francisco, CA,15,0,data engineer,na,private,75.0,106.0
+3.4,Mackin,125.5,Architectural & Engineering Services,Business Services,0,Menlo Park, CA,63,0,data scientist,na,private,17.5,183.0
+5.0,Phantom AI,25.5,Computer Hardware & Software,Information Technology,1,Burlingame, CA,7,0,data engineer,na,private,-1.0,115.5
+-1.0,Stride Search,25.5,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,private,0.0,113.0
+3.3,Tempus Labs,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Chicago, IL,8,0,machine learning engineer,senior,private,-1.0,133.0
+4.1,Twitter,3000.5,Internet,Information Technology,1,San Francisco, CA,17,3,data scientist,na,public,3500.0,103.0
+4.1,Twitter,3000.5,Internet,Information Technology,1,San Francisco, CA,17,3,data scientist,na,public,3500.0,161.0
+3.6,Opendoor,750.5,Real Estate,Real Estate,1,San Francisco, CA,9,0,data scientist,na,private,3500.0,97.0
+-1.0,Trovetechs Inc,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,private,-1.0,120.5
+3.5,Buckman,3000.5,Chemical Manufacturing,Manufacturing,1,Memphis, TN,78,0,data scientist,na,private,250500.0,154.0
+3.1,Bayside Solutions,25.5,Staffing & Outsourcing,Business Services,0,Sunnyvale, CA,22,0,data scientist,na,private,3.0,114.0
+3.3,Intellectual Ventures,750.5,Investment Banking & Asset Management,Finance,1,Bellevue, WA,23,0,data scientist,na,private,-1.0,113.0
+4.2,Ntrepid,350.5,IT Services,Information Technology,1,Herndon, VA,13,3,scientist,na,private,75.0,107.0
+3.1,Bayside Solutions,25.5,Staffing & Outsourcing,Business Services,0,Sunnyvale, CA,22,0,data scientist,na,private,3.0,89.0
+3.5,CACI International,4999.5,Aerospace & Defense,Aerospace & Defense,0,Chantilly, VA,61,3,data scientist,na,public,3500.0,123.5
+4.0,AstraZeneca,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Gaithersburg, MD,110,3,data scientist,na,public,4500.0,76.5
+3.6,Community Behavioral Health,350.5,Health Care Services & Hospitals,Health Care,0,Philadelphia, PA,29,0,data analyst,senior,private,250500.0,136.5
+4.0,Autodesk,7500.5,Computer Hardware & Software,Information Technology,0,San Francisco, CA,41,0,data scientist,senior,public,3500.0,106.0
+3.2,IMG Systems,25.5,Consulting,Business Services,1,Plano, TX,-1,0,data scientist,na,private,3.0,106.0
+3.4,Mathematica Policy Research,3000.5,Consulting,Business Services,0,Washington, DC,37,0,data scientist,na,private,300.0,115.5
+3.5,Argo Group US,3000.5,Insurance Carriers,Insurance,0,New York, NY,75,0,data scientist,senior,public,1500.0,76.5
+3.2,Triplebyte,125.5,Computer Hardware & Software,Information Technology,0,Chicago, IL,8,0,data scientist,na,private,-1.0,185.0
+4.8,TechProjects,25.5,IT Services,Information Technology,0,New York, NY,12,0,data scientist,na,private,-1.0,92.5
+4.2,CyberCoders,350.5,Staffing & Outsourcing,Business Services,0,Phoenix, AZ,24,0,data scientist,na,subsidiary or business segment,300.0,161.0
+3.4,TECHNOCRAFT Solutions,25.5,Advertising & Marketing,Business Services,0,San Ramon, CA,-1,0,data scientist,na,private,3.0,161.0
+3.6,Merrick Bank,350.5,Banks & Credit Unions,Finance,0,Utah,,26,0,data scientist,senior,private,-1.0,114.0
+4.2,HG Insights,125.5,Computer Hardware & Software,Information Technology,1,Santa Barbara, CA,13,0,data scientist,na,private,-1.0,154.0
+4.1,Pfizer,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Cambridge, MA,174,0,machine learning engineer,na,public,4500.0,103.0
+4.4,"SolutionIT, Inc.",125.5,-1,-1,0,Edison, NJ,-1,0,data scientist,na,private,-1.0,114.0
+3.5,Crossover Health,25.5,Health Care Services & Hospitals,Health Care,0,San Clemente, CA,13,0,data scientist,na,private,3.0,107.0
+4.0,Autodesk,7500.5,Computer Hardware & Software,Information Technology,0,San Francisco, CA,41,0,data scientist,na,public,3500.0,164.5
+4.1,Upside Business Travel,125.5,Internet,Information Technology,0,Remote,,8,0,data scientist,na,private,-1.0,154.0
+3.7,GovTech,3000.5,Federal Agencies,Government,0,San Francisco, CA,7,0,data scientist,na,government,-1.0,103.0
+-1.0,Monte Rosa Therapeutics,-1.0,-1,-1,0,Cambridge, MA,-1,0,scientist,na,na,-1.0,123.5
+-1.0,Sprezzatura Management Consulting,-1.0,-1,-1,0,Washington, VA,-1,0,data scientist,na,private,-1.0,114.0
+3.5,INFICON,750.5,Electrical & Electronic Manufacturing,Manufacturing,0,Newton, MA,23,3,data scientist,na,public,300.0,154.0
+-1.0,Evolvinc,25.5,IT Services,Information Technology,0,Burbank, CA,18,0,data scientist,na,private,-1.0,161.0
+3.8,"Aveshka, Inc.",125.5,IT Services,Information Technology,0,Washington, DC,13,0,data scientist,na,public,17.5,136.0
+4.6,GreatAmerica Financial Services,750.5,Lending,Finance,1,Cedar Rapids, IA,31,0,data analyst,na,private,300.0,185.0
+-1.0,Trovetechs Inc,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,private,-1.0,183.0
+-1.0,Stride Search,25.5,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,private,0.0,92.5
+4.2,Oshkosh Corporation,4999.5,Transportation Equipment Manufacturing,Manufacturing,1,Oshkosh, WI,106,3,data scientist,na,public,7500.0,183.0
+4.4,OppLoans,350.5,Lending,Finance,1,Chicago, IL,11,0,data scientist,na,private,300.0,89.0
+5.0,REE,125.5,Transportation Equipment Manufacturing,Manufacturing,0,United States,,5,0,data scientist,na,private,-1.0,97.0
+4.2,LSQ,125.5,Investment Banking & Asset Management,Finance,1,Orlando, FL,27,0,data scientist,na,private,300.0,154.0
+5.0,JCD Staffing,25.5,-1,-1,0,Washington, DC,-1,0,data scientist,na,private,-1.0,89.0
+3.8,Analysis Group,3000.5,Consulting,Business Services,1,Boston, MA,42,0,data scientist,na,private,300.0,120.5
+4.8,Giving Assistant,25.5,Advertising & Marketing,Business Services,1,San Francisco, CA,9,0,data analyst,na,private,17.5,103.0
+3.8,Evidera,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Bethesda, MD,10,2,scientist,na,subsidiary or business segment,300.0,97.0
+2.7,A Place for Mom,750.5,Health Care Services & Hospitals,Health Care,0,Overland Park, KS,23,3,data scientist,na,private,-1.0,103.0
+3.5,Leidos,4999.5,Aerospace & Defense,Aerospace & Defense,0,Fort Meade, MD,54,0,data scientist,na,public,4500.0,133.0
+3.9,Predictive Research Inc,25.5,Consulting,Business Services,0,Plano, TX,-1,0,data scientist,na,private,-1.0,97.0
+4.1,Apple,4999.5,Computer Hardware & Software,Information Technology,0,Santa Clara, CA,47,3,machine learning engineer,na,public,4500.0,123.5
+3.7,PNNL,3000.5,Energy,"Oil, Gas, Energy & Utilities",1,Richland, WA,58,3,data scientist,na,government,250500.0,76.5
+3.5,Crossover Health,25.5,Health Care Services & Hospitals,Health Care,0,San Clemente, CA,13,0,data scientist,na,private,3.0,106.0
+-1.0,"Blue Icy Water, LLC",25.5,-1,-1,0,United States,,-1,0,data scientist,na,private,-1.0,106.0
+3.8,Cook Children's Health Care System,7500.5,Health Care Services & Hospitals,Health Care,1,Fort Worth, TX,105,3,data analyst,senior,nonprofit,300.0,76.5
+3.9,Mars,4999.5,Food & Beverage Manufacturing,Manufacturing,0,United States,,112,0,data scientist,na,private,4500.0,148.0
+-1.0,Hatch Data Inc,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,na,-1.0,107.0
+4.8,Klaviyo,350.5,Computer Hardware & Software,Information Technology,1,Boston, MA,11,0,data scientist,na,private,-1.0,123.5
+4.5,Novetta,750.5,Enterprise Software & Network Solutions,Information Technology,0,Herndon, VA,11,3,data analyst,senior,private,300.0,148.0
+4.0,Grid Dynamics,3000.5,Enterprise Software & Network Solutions,Information Technology,0,Santa Clara, CA,17,3,data scientist,na,private,75.0,105.0
+3.3,Reynolds American,7500.5,Consumer Products Manufacturing,Manufacturing,1,Winston-Salem, NC,148,0,scientist,senior,private,4500.0,136.5
+3.4,Kelly,7500.5,Staffing & Outsourcing,Business Services,0,Chicago, IL,77,3,data scientist,na,public,7500.0,133.0
+4.0,Lorven Technologies Inc,25.5,Accounting,Accounting & Legal,0,New York, NY,-1,0,data scientist,na,private,0.0,106.0
+3.4,General Dynamics Information Technology,4999.5,IT Services,Information Technology,0,Vicksburg, MS,27,3,scientist,na,subsidiary or business segment,4500.0,133.0
+3.8,Cook Children's Health Care System,7500.5,Health Care Services & Hospitals,Health Care,1,Fort Worth, TX,105,3,data analyst,senior,nonprofit,300.0,185.0
+4.3,Joby Aviation,125.5,-1,-1,0,San Carlos, CA,-1,0,data scientist,na,private,-1.0,76.5
+5.0,VANTA Partners,25.5,Staffing & Outsourcing,Business Services,0,Open Fork, VA,5,0,data scientist,na,private,-1.0,106.0
+3.2,Perspecta,4999.5,Aerospace & Defense,Aerospace & Defense,0,Adelphi, MD,5,0,data scientist,na,public,-1.0,114.0
+4.1,Mentor Graphics,7500.5,Computer Hardware & Software,Information Technology,0,Fremont, CA,42,3,data scientist,na,public,1500.0,136.5
+3.7,IBM,4999.5,IT Services,Information Technology,0,Atlanta, GA,112,3,data scientist,na,public,4500.0,92.5
+-1.0,Covid-19 Search Partners,-1.0,-1,-1,0,Hauppauge, NY,-1,0,scientist,na,na,-1.0,99.5
+5.0,PROPRIUS,25.5,Enterprise Software & Network Solutions,Information Technology,0,Sunnyvale, CA,-1,0,data scientist,na,private,-1.0,161.0
+-1.0,Sonde Health,25.5,Health Care Services & Hospitals,Health Care,1,Boston, MA,-1,0,data scientist,na,private,0.0,106.0
+3.6,Riverside Research Institute,750.5,Federal Agencies,Government,0,Beavercreek, OH,56,0,machine learning engineer,na,nonprofit,75.0,97.0
+2.7,1-800-Flowers,3000.5,Wholesale,Business Services,0,New York, NY,47,0,data scientist,na,public,1500.0,271.5
+3.7,Carolina Power & Light Co,7500.5,Energy,"Oil, Gas, Energy & Utilities",0,McLean, VA,115,2,data scientist,na,subsidiary or business segment,-1.0,89.0
+4.0,Autodesk,7500.5,Computer Hardware & Software,Information Technology,0,San Francisco, CA,41,0,data scientist,senior,public,3500.0,115.5
+3.9,Thumbtack,750.5,Internet,Information Technology,1,San Francisco, CA,14,0,data scientist,senior,private,-1.0,164.5
+4.9,New England Biolabs,350.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Ipswich, MA,49,3,scientist,na,private,-1.0,105.0
+3.6,Spring Health,25.5,Health Care Services & Hospitals,Health Care,1,New York, NY,7,0,data scientist,na,private,-1.0,115.5
+4.7,Compass Consulting Group,125.5,Consulting,Business Services,0,Thousand Oaks, CA,15,0,data scientist,na,private,-1.0,123.5
+4.8,GetWellNetwork,350.5,Health Care Services & Hospitals,Health Care,1,Bethesda, MD,23,2,data engineer,na,private,75.0,115.5
+3.5,The Knot Worldwide,3000.5,Internet,Information Technology,0,Washington, DC,4,1,data scientist,na,private,-1.0,107.0
+2.8,"Progress Rail, A Caterpillar Company",3000.5,Rail,Transportation & Logistics,0,Fort Worth, TX,40,0,data scientist,na,subsidiary or business segment,3500.0,114.0
+3.0,"Central Business Solutions, Inc",125.5,Consulting,Business Services,0,Seattle, WA,-1,0,data scientist,na,private,7.5,123.5
+5.0,Phoenix Operations Group,25.5,IT Services,Information Technology,0,Annapolis Junction, MD,12,0,data scientist,na,private,3.0,92.5
+4.8,InvenTech Info,350.5,IT Services,Information Technology,0,Jersey City, NJ,13,0,data scientist,na,private,3.0,161.0
+4.8,Jane Street,750.5,Investment Banking & Asset Management,Finance,1,New York, NY,23,0,machine learning engineer,na,private,-1.0,106.0
+4.6,"Conch Technologies, Inc",125.5,Consulting,Business Services,0,Concord, CA,-1,0,data scientist,na,private,7.5,106.0
+3.5,Maxar Technologies,7500.5,Aerospace & Defense,Aerospace & Defense,0,Herndon, VA,-1,0,data scientist,na,public,3500.0,271.5
+4.4,Intuit - Data,7500.5,Computer Hardware & Software,Information Technology,0,San Diego, CA,40,3,data scientist,na,public,3500.0,154.0
+2.8,Child Care Aware of America,125.5,Social Assistance,Non-Profit,1,Arlington, VA,36,0,data scientist,na,nonprofit,37.5,43.5
+2.7,Sandhills Global,3000.5,Enterprise Software & Network Solutions,Information Technology,1,Lincoln, NE,45,0,data analyst,na,private,75.0,103.0
+3.7,Relativity,3000.5,Enterprise Software & Network Solutions,Information Technology,1,Chicago, IL,22,0,data engineer,na,private,-1.0,99.5
+3.9,Rapid Value Solutions,350.5,IT Services,Information Technology,0,San Francisco, CA,14,0,data scientist,na,private,-1.0,107.0
+3.4,TrueAccord,125.5,Enterprise Software & Network Solutions,Information Technology,0,Remote,,10,0,scientist,na,private,-1.0,185.0
+4.4,Meridian Knowledge Solutions,125.5,Enterprise Software & Network Solutions,Information Technology,0,Washington, DC,26,0,data scientist,na,subsidiary or business segment,300.0,106.0
+3.9,Nolij Consulting,125.5,Consulting,Business Services,0,Falls Church, VA,11,0,data analyst,na,public,3.0,107.0
+4.4,Eliassen Group,3000.5,Staffing & Outsourcing,Business Services,0,Plano, TX,34,3,data scientist,na,private,300.0,114.0
+4.5,Envision LLC,350.5,Staffing & Outsourcing,Business Services,1,Saint Louis, MO,29,0,data scientist,na,private,37.5,103.0
+4.9,Big Huge Games,125.5,Video Games,Media,0,Timonium, MD,10,0,data analyst,na,subsidiary or business segment,-1.0,115.5
+3.5,Western Digital,4999.5,Computer Hardware & Software,Information Technology,1,San Jose, CA,53,2,data engineer,na,public,4500.0,43.5
+2.6,Software Engineering Institute,750.5,Colleges & Universities,Education,1,Pittsburgh, PA,39,0,machine learning engineer,na,nonprofit,-1.0,92.5
+3.6,Creative Circle,350.5,Staffing & Outsourcing,Business Services,0,United States,,21,2,data scientist,na,public,-1.0,271.5
+3.7,Pacific Northwest National Laboratory,3000.5,Energy,"Oil, Gas, Energy & Utilities",1,Richland, WA,58,3,data scientist,na,government,250500.0,120.5
+3.3,Tempus Labs,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Chicago, IL,8,0,scientist,na,private,-1.0,164.5
+3.6,TE Connectivity,4999.5,Electrical & Electronic Manufacturing,Manufacturing,0,Hampton, VA,16,0,data scientist,na,public,4500.0,183.0
+4.5,Conflux Systems Inc.,25.5,Accounting,Accounting & Legal,0,Winters, TX,-1,0,data scientist,na,private,0.0,161.0
+4.2,Procore Technologies,3000.5,Computer Hardware & Software,Information Technology,1,Carpinteria, CA,21,0,data engineer,na,private,-1.0,99.5
+3.5,eBay,4999.5,Internet,Information Technology,1,San Jose, CA,28,2,data scientist,na,public,4500.0,120.5
+3.3,MITRE,7500.5,Federal Agencies,Government,1,Bedford, MA,65,3,data scientist,na,nonprofit,1500.0,148.0
+3.5,Maxar Technologies,7500.5,Aerospace & Defense,Aerospace & Defense,0,Herndon, VA,-1,0,data scientist,na,public,3500.0,114.0
+3.8,CIA,-1.0,Federal Agencies,Government,0,Washington, DC,76,0,data scientist,na,government,-1.0,106.0
+2.2,Great-Circle Technologies,25.5,Enterprise Software & Network Solutions,Information Technology,1,Chantilly, VA,23,0,data scientist,na,private,3.0,103.0
+3.6,XSELL Technologies,125.5,Enterprise Software & Network Solutions,Information Technology,1,Chicago, IL,9,0,data scientist,na,private,-1.0,99.5
+-1.0,"Rainmaker Resources, LLC",25.5,-1,-1,1,Cincinnati, OH,-1,0,data scientist,na,private,-1.0,106.0
+3.4,Voice,-1.0,-1,-1,0,Brooklyn, NY,-1,0,data scientist,na,private,-1.0,161.0
+3.4,ASRC Federal Holding Company,7500.5,Aerospace & Defense,Aerospace & Defense,0,Reston, VA,20,0,data scientist,na,private,250500.0,185.0
+3.4,Spectrum Communications and Consulting,125.5,Advertising & Marketing,Business Services,1,Chicago, IL,31,0,data scientist,na,private,17.5,92.5
+4.9,Cambridge Mobile Telematics,25.5,Enterprise Software & Network Solutions,Information Technology,1,Cambridge, MA,13,0,data scientist,na,private,-1.0,134.0
+3.2,Net2Source Inc.,3000.5,Staffing & Outsourcing,Business Services,0,Alpharetta, GA,16,0,data scientist,na,private,300.0,92.5
+2.9,GNS Healthcare,125.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Cambridge, MA,23,0,data scientist,na,private,17.5,99.5
+3.5,WGSN,25.5,Consulting,Business Services,0,Baltimore, MD,25,0,data scientist,na,private,75.0,114.0
+3.0,Moxie Software,125.5,Enterprise Software & Network Solutions,Information Technology,0,Bellevue, WA,24,3,data scientist,na,private,-1.0,123.5
+3.7,Via Transportation,750.5,Internet,Information Technology,1,New York, NY,11,0,data scientist,na,private,-1.0,106.0
+4.3,Ovative Group,125.5,Advertising & Marketing,Business Services,1,Minneapolis, MN,14,0,data scientist,na,private,17.5,106.0
+4.4,OneMagnify,350.5,Advertising & Marketing,Business Services,0,Dearborn, MI,56,0,data analyst,na,private,-1.0,99.5
+3.6,Powertek,125.5,IT Services,Information Technology,0,Washington, DC,22,0,data scientist,na,private,37.5,89.0
+4.7,Praxis Engineering,350.5,Computer Hardware & Software,Information Technology,0,Chantilly, VA,21,3,data scientist,na,subsidiary or business segment,300.0,134.0
+3.3,Huxley,350.5,Staffing & Outsourcing,Business Services,0,San Francisco, CA,28,0,data scientist,na,private,37.5,113.0
+3.5,Gap Inc.,4999.5,"Department, Clothing, & Shoe Stores",Retail,1,San Francisco, CA,54,3,data scientist,na,public,4500.0,107.0
+4.2,IZEA,125.5,Advertising & Marketing,Business Services,1,Winter Park, FL,17,2,data engineer,na,public,37.5,115.5
+3.3,MITRE,7500.5,Federal Agencies,Government,0,McLean, VA,65,3,data scientist,na,nonprofit,1500.0,164.5
+3.5,QOMPLX,125.5,Enterprise Software & Network Solutions,Information Technology,1,Reston, VA,8,0,data analyst,na,private,17.5,115.5
+3.8,Evidera,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Bethesda, MD,10,2,scientist,na,subsidiary or business segment,300.0,99.5
+4.8,Acuity Insurance,3000.5,Insurance Carriers,Insurance,1,Sheboygan, WI,98,0,data scientist,senior,private,1500.0,107.0
+4.0,Exact Sciences Corporation,3000.5,Health Care Services & Hospitals,Health Care,1,Madison, WI,28,0,scientist,na,public,300.0,136.5
+4.5,Radiant Digital,25.5,-1,-1,0,Washington, DC,-1,0,data scientist,na,private,0.0,43.5
+3.9,Mars,4999.5,Food & Beverage Manufacturing,Manufacturing,0,New York, NY,112,0,data scientist,na,private,4500.0,115.5
+3.8,AgreeYa Solutions,3000.5,IT Services,Information Technology,0,Thousand Oaks, CA,24,0,data scientist,na,private,75.0,114.0
+3.7,22nd Century Technologies,3000.5,IT Services,Information Technology,0,Oakland, CA,26,0,data scientist,na,private,37.5,113.0
+5.0,Jobot,125.5,Staffing & Outsourcing,Business Services,1,Irvine, CA,5,0,data scientist,na,private,37.5,120.5
+4.1,Capio Group,4999.5,Health Care Services & Hospitals,Health Care,0,Sacramento, CA,-1,0,data scientist,na,nonprofit,-1.0,183.0
+3.1,Battelle,4999.5,Research & Development,Business Services,0,Norwell, MA,94,0,data scientist,na,nonprofit,7500.0,107.0
+4.9,"Visionist, Inc.",125.5,Enterprise Software & Network Solutions,Information Technology,1,Columbia, MD,13,0,data scientist,na,private,17.5,161.0
+4.5,Novetta,750.5,Enterprise Software & Network Solutions,Information Technology,0,Herndon, VA,11,3,data scientist,senior,private,300.0,115.5
+3.7,MassMutual,7500.5,Insurance Carriers,Insurance,0,Boston, MA,172,0,data scientist,na,private,4500.0,76.5
+3.9,Novartis,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Cambridge, MA,27,0,data scientist,senior,public,4500.0,92.5
+4.5,Envision LLC,350.5,Staffing & Outsourcing,Business Services,1,Saint Louis, MO,29,0,data scientist,na,private,37.5,92.5
+4.4,Rocket Lawyer,125.5,Computer Hardware & Software,Information Technology,1,San Francisco, CA,15,0,data engineer,na,private,75.0,113.0
+4.3,Descript,25.5,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,private,0.0,107.0
+3.9,Criteo,3000.5,Internet,Information Technology,0,Ann Arbor, MI,18,3,data scientist,na,public,3500.0,161.0
+4.1,Upside Business Travel,125.5,Internet,Information Technology,0,Remote,,8,0,data scientist,na,private,-1.0,92.5
+2.5,KeHE Distributors,7500.5,Wholesale,Business Services,1,Naperville, IL,69,3,data scientist,na,private,-1.0,123.5
+4.5,Kingfisher Systems,125.5,Federal Agencies,Government,1,Falls Church, VA,18,0,data engineer,na,private,37.5,164.5
+4.2,10x Genomics,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Raleigh, NC,11,0,scientist,na,public,-1.0,271.5
+3.9,GSK,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Collegeville, PA,193,3,data scientist,na,public,4500.0,106.0
+4.0,Lorven Technologies Inc,25.5,Accounting,Accounting & Legal,0,New York, NY,-1,0,data scientist,na,private,0.0,107.0
+3.8,Juniper Networks,7500.5,Telecommunications Services,Telecommunications,0,Cupertino, CA,27,0,data scientist,senior,public,3500.0,115.5
+3.3,Concerto HealthAI,350.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Boston, MA,5,0,data scientist,na,private,-1.0,161.0
+4.4,"Homology Medicines, Inc.",125.5,-1,-1,0,New Bedford, MA,-1,0,scientist,senior,public,-1.0,148.0
+4.5,Smith Hanley Associates,25.5,Staffing & Outsourcing,Business Services,0,Washington, DC,43,3,data scientist,na,private,-1.0,271.5
+4.5,Global Data Management Inc,125.5,IT Services,Information Technology,0,Hartford, CT,15,0,data scientist,na,private,7.5,97.0
+4.2,Eversight,125.5,Enterprise Software & Network Solutions,Information Technology,1,Palo Alto, CA,10,0,data scientist,na,private,17.5,134.0
+4.8,IT Concepts,125.5,IT Services,Information Technology,0,Remote,,20,0,data engineer,junior,private,17.5,103.0
+4.3,PulsePoint,125.5,Internet,Information Technology,1,New York, NY,12,3,data scientist,na,private,300.0,97.0
+3.8,Juniper Networks,7500.5,Telecommunications Services,Telecommunications,0,Cupertino, CA,27,0,data scientist,senior,public,3500.0,99.5
+4.7,"Tygart Technology, Inc",25.5,-1,-1,0,Washington, DC,-1,0,data scientist,na,private,3.0,106.0
+4.6,Murray Resources,25.5,Staffing & Outsourcing,Business Services,0,The Woodlands, TX,35,0,data scientist,na,private,17.5,107.0
+4.2,Ntrepid,350.5,IT Services,Information Technology,1,Herndon, VA,13,3,scientist,na,private,75.0,76.5
+3.8,"Criterion Systems, Inc.",350.5,IT Services,Information Technology,1,Vienna, VA,18,0,data scientist,na,private,75.0,136.0
+4.0,Autodesk,7500.5,Computer Hardware & Software,Information Technology,0,San Francisco, CA,41,0,data scientist,na,public,3500.0,92.5
+4.0,Two95 International Inc.,25.5,Staffing & Outsourcing,Business Services,0,Chicago, IL,-1,0,data scientist,na,private,3.0,107.0
+4.9,Avlino,25.5,Enterprise Software & Network Solutions,Information Technology,0,New Jersey,,10,0,data scientist,na,private,0.0,115.5
+3.5,Maxar Technologies,7500.5,Aerospace & Defense,Aerospace & Defense,0,Herndon, VA,-1,0,data scientist,senior,public,3500.0,271.5
+3.3,Tempus Labs,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Chicago, IL,8,0,scientist,na,private,-1.0,136.5
+4.0,AstraZeneca,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Gaithersburg, MD,110,3,data scientist,na,public,4500.0,123.5
+3.4,SleePare,25.5,Other Retail Stores,Retail,1,New York, NY,6,0,data scientist,na,private,-1.0,183.0
+5.0,Paige,25.5,Enterprise Software & Network Solutions,Information Technology,1,New York, NY,5,0,data engineer,na,private,-1.0,120.5
+3.7,Takeda,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Cambridge, MA,242,3,data scientist,na,public,4500.0,103.0
+3.9,Novartis,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Cambridge, MA,27,0,data scientist,senior,public,4500.0,92.5
+4.0,AstraZeneca,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Wilmington, DE,110,3,data scientist,na,public,4500.0,271.5
+3.5,Allen Institute,350.5,Research & Development,Business Services,1,Seattle, WA,20,0,machine learning engineer,na,nonprofit,300.0,271.5
+3.5,Maxar Technologies,7500.5,Aerospace & Defense,Aerospace & Defense,0,Herndon, VA,-1,0,data scientist,na,public,3500.0,115.5
+4.7,webfx.com,350.5,Advertising & Marketing,Business Services,1,Harrisburg, PA,26,0,data analyst,junior,private,37.5,76.5
+3.5,Argo Group US,3000.5,Insurance Carriers,Insurance,0,New York, NY,75,0,data scientist,senior,public,1500.0,97.0
+3.3,Reynolds American,7500.5,Consumer Products Manufacturing,Manufacturing,1,Winston-Salem, NC,148,0,scientist,senior,private,4500.0,148.0
+3.6,Twitch,3000.5,Internet,Information Technology,1,San Francisco, CA,12,0,data analyst,senior,subsidiary or business segment,-1.0,164.5
+2.9,Xator Corporation,750.5,IT Services,Information Technology,0,Washington, DC,-1,0,data scientist,na,private,37.5,89.0
+3.5,Central California Alliance for Health,750.5,Health Care Services & Hospitals,Health Care,1,Scotts Valley, CA,27,0,data analyst,na,nonprofit,250500.0,114.0
+3.4,Advance Sourcing Concepts,125.5,-1,-1,1,Pittsburgh, PA,-1,0,data scientist,na,private,3.0,185.0
+3.7,Protolabs,3000.5,Miscellaneous Manufacturing,Manufacturing,1,Maple Plain, MN,24,0,data analyst,senior,public,300.0,43.5
+3.5,Ritedose,350.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Columbia, SC,28,0,scientist,senior,private,300.0,99.5
+3.9,Quartet Health,350.5,Enterprise Software & Network Solutions,Information Technology,1,New York, NY,9,0,data scientist,senior,private,-1.0,133.0
+3.3,II-VI Incorporated,4999.5,Telecommunications Manufacturing,Telecommunications,0,Champaign, IL,52,3,data scientist,na,public,1500.0,97.0
+5.0,Kollasoft Inc.,-1.0,-1,-1,0,New York, NY,-1,0,data scientist,na,public,-1.0,185.0
+3.4,"MILVETS Systems Technology, Inc.",125.5,IT Services,Information Technology,0,Patuxent, Anne Arundel,37,0,data scientist,na,private,37.5,89.0
+-1.0,Microagility,25.5,Consulting,Business Services,0,New York, NY,-1,0,data scientist,na,private,3.0,185.0
+3.8,Burns & McDonnell,7500.5,Architectural & Engineering Services,Business Services,1,Kansas City, MO,125,3,data scientist,na,private,1500.0,161.0
+2.9,Envision Healthcare,4999.5,Health Care Services & Hospitals,Health Care,1,Nashville, TN,18,0,data scientist,na,private,-1.0,106.0
+3.7,Takeda,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Cambridge, MA,242,3,data scientist,na,public,4500.0,114.0
+4.7,Sage Intacct,750.5,Computer Hardware & Software,Information Technology,0,San Francisco, CA,24,0,machine learning engineer,na,subsidiary or business segment,-1.0,107.0
+5.0,Cohere Health,25.5,IT Services,Information Technology,1,Boston, MA,4,0,data scientist,na,private,-1.0,183.0
+4.0,Travelers,4999.5,Insurance Carriers,Insurance,1,Hartford, CT,170,0,data engineer,na,public,4500.0,114.0
+3.6,WCG (WIRB-Copernicus Group),3000.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Hamilton, NJ,-1,0,data scientist,senior,private,300.0,136.5
+3.0,Photon Infotech,3000.5,IT Services,Information Technology,0,Chicago, IL,24,0,data scientist,na,private,300.0,97.0
+3.5,Maxar Technologies,7500.5,Aerospace & Defense,Aerospace & Defense,0,Herndon, VA,-1,0,data scientist,senior,public,3500.0,123.5
+3.3,Amyris,350.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Emeryville, CA,20,0,data scientist,na,public,300.0,164.5
+4.7,Praxis Engineering,350.5,Computer Hardware & Software,Information Technology,0,Chantilly, VA,21,3,data scientist,na,subsidiary or business segment,300.0,43.5
+5.0,Averity,25.5,Staffing & Outsourcing,Business Services,1,New York, NY,9,0,data scientist,na,private,-1.0,134.0
+4.8,Klaviyo,350.5,Computer Hardware & Software,Information Technology,1,Boston, MA,11,0,data scientist,na,private,-1.0,271.5
+3.6,Qurate Retail Group,4999.5,Other Retail Stores,Retail,1,West Chester, PA,-1,0,data scientist,na,public,-1.0,136.0
+4.0,Advanced Bio-Logic Solutions Corp,25.5,-1,-1,0,Thousand Oaks, CA,-1,0,data scientist,na,private,0.0,114.0
+4.5,"Fullpower Technologies, Inc.",125.5,Computer Hardware & Software,Information Technology,1,Santa Cruz, CA,20,0,data scientist,na,private,17.5,148.0
+4.0,Stripe,3000.5,Internet,Information Technology,1,San Francisco, CA,13,3,data scientist,na,private,-1.0,105.0
+5.0,Genesis Research,25.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Hoboken, NJ,14,0,scientist,na,private,-1.0,107.0
+4.1,Shelter Insurance,3000.5,Insurance Carriers,Insurance,1,Columbia, MO,77,0,data analyst,na,private,1500.0,133.0
+3.5,Evolve Vacation Rental,350.5,Travel Agencies,Travel & Tourism,1,Denver, CO,12,0,data scientist,senior,private,-1.0,89.0
+3.3,Puget Sound Energy,3000.5,Utilities,"Oil, Gas, Energy & Utilities",0,Bothell, WA,24,0,data scientist,na,private,3500.0,103.0
+4.7,C3.ai,350.5,Enterprise Software & Network Solutions,Information Technology,1,Redwood City, CA,14,3,data scientist,na,private,300.0,133.0
+3.3,Tokio Marine HCC,3000.5,Insurance Carriers,Insurance,1,Houston, TX,49,3,data scientist,na,private,-1.0,123.5
+4.1,CaptiveAire,3000.5,Industrial Manufacturing,Manufacturing,1,Raleigh, NC,47,0,data engineer,na,private,300.0,164.5
+4.9,Avlino,25.5,Enterprise Software & Network Solutions,Information Technology,0,New Jersey,,10,0,data scientist,na,private,0.0,123.5
+4.4,Intuit - Data,7500.5,Computer Hardware & Software,Information Technology,0,San Diego, CA,40,3,data scientist,na,public,3500.0,115.5
+3.1,1010data,350.5,Computer Hardware & Software,Information Technology,1,New York, NY,23,0,data engineer,na,private,75.0,107.0
+4.0,Grid Dynamics,3000.5,Enterprise Software & Network Solutions,Information Technology,0,Santa Clara, CA,17,3,data scientist,na,private,75.0,43.5
+3.3,Inland Empire Health Plan,3000.5,Health Care Services & Hospitals,Health Care,1,Rancho Cucamonga, CA,27,0,data scientist,na,public,1500.0,148.0
+2.9,Quest Integrity,350.5,Oil & Gas Services,"Oil, Gas, Energy & Utilities",0,Tulsa, OK,27,0,data analyst,na,public,75.0,92.5
+4.5,Novetta,750.5,Enterprise Software & Network Solutions,Information Technology,0,Herndon, VA,11,3,data analyst,senior,private,300.0,136.5
+5.0,LifeOmic,125.5,Enterprise Software & Network Solutions,Information Technology,0,Raleigh, NC,7,0,machine learning engineer,senior,private,-1.0,136.5
+4.2,LSQ,125.5,Investment Banking & Asset Management,Finance,1,Orlando, FL,27,0,other,na,private,300.0,164.5
+3.3,Tempus Labs,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Redwood City, CA,8,0,machine learning engineer,senior,private,-1.0,92.5
+2.9,Affinity Solutions,125.5,Advertising & Marketing,Business Services,1,New York, NY,25,3,data scientist,na,private,-1.0,154.0
+3.6,Kognetics,25.5,-1,-1,0,Gahanna, OH,-1,0,data scientist,na,private,-1.0,106.0
+4.5,E3 Federal Solutions,750.5,Consulting,Business Services,0,Chantilly, VA,19,0,data scientist,na,private,-1.0,164.5
+3.8,GutCheck,125.5,Advertising & Marketing,Business Services,1,Denver, CO,14,3,data scientist,senior,private,17.5,115.5
+4.1,"Latitude, Inc.",25.5,Consulting,Business Services,0,Washington, DC,-1,0,data scientist,na,private,3.0,161.0
+3.6,Alaka`ina Foundation Family of Companies,750.5,-1,-1,0,Fort Sam Houston, TX,-1,0,data scientist,na,government,-1.0,271.5
+3.3,Intellectual Ventures,750.5,Investment Banking & Asset Management,Finance,1,Bellevue, WA,23,0,data scientist,na,private,-1.0,103.0
+5.0,Cohere Health,25.5,IT Services,Information Technology,1,Boston, MA,4,0,data scientist,na,private,-1.0,103.0
+3.7,Mteq,750.5,Aerospace & Defense,Aerospace & Defense,0,Fort Belvoir, VA,69,2,machine learning engineer,na,public,300.0,92.5
+3.2,Triplebyte,125.5,Computer Hardware & Software,Information Technology,0,Remote,,8,0,machine learning engineer,na,private,-1.0,99.5
+3.8,MIT Lincoln Laboratory,3000.5,Aerospace & Defense,Aerospace & Defense,1,Lexington, MA,72,0,data scientist,na,nonprofit,-1.0,154.0
+3.8,Sandia National Laboratories,4999.5,Federal Agencies,Government,0,Livermore, CA,74,2,scientist,na,government,3500.0,148.0
+3.3,BWX Technologies,7500.5,Aerospace & Defense,Aerospace & Defense,0,Oak Ridge, TN,173,0,data scientist,na,public,250500.0,97.0
+4.0,New York Technology Partners,125.5,Computer Hardware & Software,Information Technology,0,Seattle, WA,24,0,data scientist,na,private,17.5,107.0
+4.8,Klaviyo,350.5,Computer Hardware & Software,Information Technology,1,Boston, MA,11,0,data scientist,senior,private,-1.0,136.5
+-1.0,PETADATA,125.5,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,private,-1.0,183.0
+4.1,Coverent,125.5,Consulting,Business Services,1,McLean, VA,15,0,data scientist,na,private,17.5,161.0
+4.5,Systems & Technology Research,350.5,Aerospace & Defense,Aerospace & Defense,1,Woburn, MA,13,0,scientist,na,private,300.0,136.5
+5.0,Blue Horizon Tek Solutions,25.5,Staffing & Outsourcing,Business Services,0,New York, NY,36,0,data scientist,na,private,-1.0,271.5
+3.8,ISO New England,750.5,Utilities,"Oil, Gas, Energy & Utilities",1,Holyoke, MA,26,0,engineer,na,nonprofit,-1.0,99.5
+3.5,iRobot,3000.5,Consumer Electronics & Appliances Stores,Retail,1,Bedford, MA,33,0,data scientist,na,public,1500.0,105.0
+2.9,Quest Integrity,350.5,Oil & Gas Services,"Oil, Gas, Energy & Utilities",0,Tulsa, OK,27,0,data analyst,na,public,75.0,43.5
+4.2,IZEA,125.5,Advertising & Marketing,Business Services,1,Winter Park, FL,17,2,data engineer,na,public,37.5,99.5
+2.7,Hexagon US Federal,125.5,Aerospace & Defense,Aerospace & Defense,0,Lexington Park, MD,13,0,data scientist,na,public,-1.0,136.0
+3.9,Thumbtack,750.5,Internet,Information Technology,1,San Francisco, CA,14,0,data engineer,senior,private,-1.0,89.0
+3.8,Dermalogica,350.5,Consumer Products Manufacturing,Manufacturing,1,Carson, CA,37,3,data analyst,na,subsidiary or business segment,300.0,105.0
+3.4,Mathematica Policy Research,3000.5,Consulting,Business Services,0,Washington, DC,37,0,data scientist,na,private,300.0,154.0
+-1.0,Radical Convergence,-1.0,-1,-1,0,Reston, VA,-1,0,machine learning engineer,na,na,-1.0,133.0
+3.1,"Cambridge Associates, LLC",750.5,Investment Banking & Asset Management,Finance,1,Boston, MA,50,0,data analyst,na,private,300.0,103.0
+4.7,CRS Group,125.5,Staffing & Outsourcing,Business Services,0,Chicago, IL,29,0,data scientist,na,private,17.5,107.0
+3.8,GutCheck,125.5,Advertising & Marketing,Business Services,1,Denver, CO,14,3,data scientist,na,private,17.5,136.5
+3.6,Constant Contact,-1.0,Advertising & Marketing,Business Services,1,Waltham, MA,28,3,data scientist,na,subsidiary or business segment,-1.0,76.5
+3.7,MassMutual,7500.5,Insurance Carriers,Insurance,0,Boston, MA,172,0,other,na,private,4500.0,92.5
+4.0,Netskope,750.5,Enterprise Software & Network Solutions,Information Technology,0,San Francisco, CA,11,3,data scientist,na,private,-1.0,103.0
+2.6,Software Engineering Institute,750.5,Colleges & Universities,Education,1,Pittsburgh, PA,39,0,machine learning engineer,na,nonprofit,-1.0,113.0
+4.5,ShorePoint,25.5,IT Services,Information Technology,0,Reston, VA,6,0,data analyst,na,private,-1.0,183.0
+4.1,Gallup,3000.5,Consulting,Business Services,0,New York, NY,88,3,data scientist,na,private,-1.0,107.0
+3.9,7Park Data,125.5,Research & Development,Business Services,1,New York, NY,11,0,data scientist,na,private,-1.0,43.5
+3.8,Dermalogica,350.5,Consumer Products Manufacturing,Manufacturing,1,Carson, CA,37,3,data analyst,na,subsidiary or business segment,300.0,92.5
+-1.0,AccessHope,-1.0,-1,-1,0,Irwindale, CA,-1,0,data scientist,na,na,-1.0,136.0
+4.1,ABIOMED,3000.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Danvers, MA,42,2,data scientist,na,public,300.0,120.5
+4.4,Rocket Lawyer,125.5,Computer Hardware & Software,Information Technology,1,San Francisco, CA,15,0,data engineer,na,private,75.0,92.5
+2.7,USAC,750.5,Telecommunications Services,Telecommunications,1,Washington, DC,26,0,data analyst,na,nonprofit,37.5,133.0
+-1.0,Kibo,-1.0,-1,-1,0,Philadelphia, PA,-1,0,data scientist,na,public,-1.0,164.5
+-1.0,Navio,-1.0,-1,-1,0,San Mateo, CA,-1,0,data scientist,na,na,-1.0,161.0
+4.5,Johns Hopkins University Applied Physics Laboratory,7500.5,Aerospace & Defense,Aerospace & Defense,1,Laurel, MD,81,3,scientist,na,nonprofit,1500.0,43.5
+3.8,Tecolote Research,750.5,Aerospace & Defense,Aerospace & Defense,0,Hill AFB, UT,50,0,data scientist,na,private,75.0,115.5
+3.9,Navy Federal Credit Union,4999.5,Banks & Credit Unions,Finance,0,Merrifield, VA,90,0,data engineer,na,na,-1.0,148.0
+3.5,Maxar Technologies,7500.5,Aerospace & Defense,Aerospace & Defense,0,Herndon, VA,-1,0,data scientist,na,public,3500.0,136.5
+4.2,ManTech,7500.5,Research & Development,Business Services,0,Chantilly, VA,55,0,data scientist,na,public,1500.0,154.0
+4.3,Geotab,3000.5,Computer Hardware & Software,Information Technology,0,Oakville, CA,23,0,data scientist,na,private,300.0,114.0
+4.0,Dynetics,3000.5,Aerospace & Defense,Aerospace & Defense,1,Huntsville, AL,49,0,scientist,na,private,300.0,148.0
+4.0,AstraZeneca,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Gaithersburg, MD,110,3,data scientist,na,public,4500.0,105.0
+3.7,Protolabs,3000.5,Miscellaneous Manufacturing,Manufacturing,1,Maple Plain, MN,24,0,data analyst,senior,public,300.0,92.5
+3.6,Chef,350.5,Enterprise Software & Network Solutions,Information Technology,0,United States,,15,3,data engineer,na,private,75.0,103.0
+3.8,"Aveshka, Inc.",125.5,IT Services,Information Technology,0,Washington, DC,13,0,data scientist,na,public,17.5,271.5
+5.0,PeopleCom,25.5,-1,-1,0,McLean, VA,-1,0,data scientist,na,private,3.0,106.0
+3.2,"Numeric, LLC",25.5,Staffing & Outsourcing,Business Services,0,Philadelphia, PA,-1,0,data scientist,na,private,7.5,92.5
+4.5,Smith Hanley Associates,25.5,Staffing & Outsourcing,Business Services,0,Washington, DC,43,3,data scientist,na,private,-1.0,114.0
+4.4,NuWave Solutions,125.5,IT Services,Information Technology,0,Springfield, VA,24,0,machine learning engineer,na,private,7.5,105.0
+4.8,TechProjects,25.5,IT Services,Information Technology,0,New York, NY,12,0,data scientist,na,private,-1.0,113.0
+3.8,Applied Research Laboratories,750.5,Colleges & Universities,Education,1,Austin, TX,-1,0,scientist,na,nonprofit,-1.0,148.0
+3.5,Western Digital,4999.5,Computer Hardware & Software,Information Technology,1,San Jose, CA,53,2,data engineer,na,public,4500.0,134.0
+3.6,Gigya,350.5,Enterprise Software & Network Solutions,Information Technology,0,Palo Alto, CA,17,0,data scientist,na,private,17.5,107.0
+3.1,Old World Industries,350.5,Chemical Manufacturing,Manufacturing,1,Northbrook, IL,50,0,other,na,private,1500.0,154.0
+3.8,Enterprise Solutions Inc,125.5,Staffing & Outsourcing,Business Services,0,New York, NY,23,0,data scientist,na,private,37.5,185.0
+-1.0,"GrainBridge, LLC",-1.0,-1,-1,0,Omaha, NE,-1,0,data scientist,na,na,-1.0,114.0
+3.4,Liberty Mutual Insurance,4999.5,Insurance Carriers,Insurance,0,Indianapolis, IN,111,3,engineer,na,private,4500.0,136.5
+4.7,Lawrence Livermore National Lab,3000.5,Federal Agencies,Government,1,Livermore, CA,71,3,data scientist,na,government,1500.0,120.5
+3.5,Magna International Inc.,4999.5,-1,-1,0,Birmingham, AL,66,3,data engineer,na,public,4500.0,133.0
+4.0,Foundation Medicine,3000.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Boston, MA,13,3,data scientist,na,public,300.0,136.0
+3.4,Dice.com,350.5,Staffing & Outsourcing,Business Services,0,Newton, MA,33,3,data scientist,na,subsidiary or business segment,300.0,107.0
+-1.0,Berico Technologies,-1.0,-1,-1,0,Fort Belvoir, VA,-1,0,data scientist,na,na,-1.0,136.0
+2.7,Hexagon US Federal,125.5,Aerospace & Defense,Aerospace & Defense,0,Lexington Park, MD,13,0,data scientist,na,public,-1.0,271.5
+3.7,Sanofi,4999.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Cambridge, MA,50,2,data scientist,na,public,4500.0,107.0
+2.0,Conagen,125.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,New Bedford, MA,-1,0,scientist,na,private,-1.0,148.0
+4.5,Systems & Technology Research,350.5,Aerospace & Defense,Aerospace & Defense,1,Woburn, MA,13,0,scientist,na,private,300.0,148.0
+4.1,Shape Security,125.5,IT Services,Information Technology,0,Santa Clara, CA,12,0,data engineer,na,private,-1.0,76.5
+2.9,"Pragmatics, Inc.",350.5,IT Services,Information Technology,0,United States,,38,0,data scientist,na,private,300.0,43.5
+3.9,Southwest Research Institute,3000.5,Research & Development,Business Services,0,Dayton, OH,76,3,scientist,na,nonprofit,250500.0,271.5
+3.2,Postmates - Corporate HQ,3000.5,Express Delivery Services,Transportation & Logistics,1,San Francisco, CA,12,3,data scientist,na,private,-1.0,103.0
+3.9,Apex Systems,3000.5,Staffing & Outsourcing,Business Services,0,San Francisco, CA,28,3,data scientist,na,subsidiary or business segment,3500.0,43.5
+3.5,Maxar Technologies,7500.5,Aerospace & Defense,Aerospace & Defense,0,Herndon, VA,-1,0,data scientist,na,public,3500.0,148.0
+3.3,Insider Inc,350.5,News Outlet,Media,1,New York, NY,16,0,data scientist,na,private,75.0,107.0
+4.3,PulsePoint,125.5,Internet,Information Technology,1,New York, NY,12,3,data scientist,na,private,300.0,154.0
+3.9,Criteo,3000.5,Internet,Information Technology,0,Ann Arbor, MI,18,3,data scientist,na,public,3500.0,185.0
+3.3,Tempus Labs,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,1,Chicago, IL,8,0,machine learning engineer,na,private,-1.0,43.5
+3.5,Maxar Technologies,7500.5,Aerospace & Defense,Aerospace & Defense,0,Chantilly, VA,-1,0,data scientist,na,public,3500.0,133.0
+4.8,Klaviyo,350.5,Computer Hardware & Software,Information Technology,1,Boston, MA,11,0,data scientist,na,private,-1.0,120.5
+5.0,SkillSoniq,-1.0,-1,-1,0,San Francisco, CA,-1,0,data scientist,na,public,-1.0,76.5
+4.5,Kingfisher Systems,125.5,Federal Agencies,Government,1,Falls Church, VA,18,0,data engineer,na,private,37.5,136.5
+4.6,GreatAmerica Financial Services,750.5,Lending,Finance,1,Cedar Rapids, IA,31,0,data analyst,na,private,300.0,161.0
+-1.0,Sophinea,25.5,-1,-1,0,Chantilly, VA,-1,0,data scientist,na,na,-1.0,107.0
+3.7,Protolabs,3000.5,Miscellaneous Manufacturing,Manufacturing,1,Maple Plain, MN,24,0,data analyst,senior,public,300.0,134.0
+4.4,Adwait Algorithm,125.5,IT Services,Information Technology,0,New York, NY,8,0,data scientist,na,private,-1.0,185.0
+5.0,Notion Labs,25.5,Enterprise Software & Network Solutions,Information Technology,1,San Francisco, CA,7,0,data scientist,na,private,-1.0,99.5
+3.5,Inter-American Development Bank,3000.5,Banks & Credit Unions,Finance,1,Washington, DC,64,2,data scientist,na,na,4500.0,115.5
+3.7,Carolina Power & Light Co,7500.5,Energy,"Oil, Gas, Energy & Utilities",0,McLean, VA,115,2,data scientist,na,subsidiary or business segment,-1.0,114.0
+4.5,"Fullpower Technologies, Inc.",125.5,Computer Hardware & Software,Information Technology,1,Santa Cruz, CA,20,0,data scientist,na,private,17.5,105.0
+4.2,DW Simpson,125.5,Staffing & Outsourcing,Business Services,0,Frederick, MD,34,0,data scientist,na,private,17.5,92.5
+4.8,Jane Street,750.5,Investment Banking & Asset Management,Finance,1,New York, NY,23,0,machine learning engineer,na,private,-1.0,113.0
+4.3,The Buffalo Group,750.5,IT Services,Information Technology,0,Fort Belvoir, VA,13,3,data analyst,senior,private,300.0,92.5
+3.0,Ameritas Life Insurance Corp,3000.5,Insurance Agencies & Brokerages,Insurance,0,Cincinnati, OH,136,0,data scientist,na,private,3500.0,43.5
+4.7,Scoop,125.5,Internet,Information Technology,1,San Francisco, CA,8,0,data engineer,senior,private,-1.0,115.5
+4.6,Murray Resources,25.5,Staffing & Outsourcing,Business Services,0,The Woodlands, TX,35,0,data scientist,na,private,17.5,114.0
+3.2,Triplebyte,125.5,Computer Hardware & Software,Information Technology,0,New York, NY,8,0,data scientist,na,private,-1.0,154.0
+3.3,Tempus Labs,750.5,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,0,Redwood City, CA,8,0,data scientist,na,private,-1.0,105.0
+3.2,Tivity Health,750.5,Health Care Services & Hospitals,Health Care,0,Chandler, AZ,42,0,data engineer,senior,public,-1.0,115.5
+3.5,Comcast,4999.5,-1,-1,0,New York, NY,60,2,data scientist,na,public,4500.0,120.5
+4.1,DCS Corp,3000.5,Research & Development,Business Services,0,Hampton, VA,46,0,data scientist,na,private,300.0,106.0
+4.1,Evidation,125.5,Internet,Information Technology,0,Santa Barbara, CA,11,0,data scientist,na,private,-1.0,115.5

@@ -5,14 +5,14 @@ from src.exception import CustomException
 from src.logger import logging
 from src.utils import save_object
 from dataclasses import dataclass
-from sklearn.preprocessing import OneHotEncoder,StandardScalar
+from sklearn.preprocessing import OneHotEncoder,StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 
 @dataclass
 class data_transform_config:
-    preprocessor_ob_file_path = os.path.join('artifacts','preprocessor.pkl')
+    preprocessor_ob_file_path: str = os.path.join('artifacts','preprocessor.pkl')
 
 class data_transformation:
     def __init__(self):
@@ -20,23 +20,28 @@ class data_transformation:
         
     def get_transformation_object(self):
         try:
-            numerical_column = ['Salary Estimate','Rating','Size','same_location','company_age','total_competitors','avg_revenue']
+            logging.info("Preparing for preprcoessor...")
+            
+            numerical_column = ['Rating','Size','same_location','company_age','total_competitors','avg_revenue']
             categorical_column = ['Company Name','Industry','Sector','city','state','simplified_job_title','seniority','ownership_type']
             
             num_pipeline = Pipeline(
                 steps=[
-                    ("imputer",SimpleImputer(strategy="median"))
-                    ("scalar",StandardScalar())
+                    ("imputer",SimpleImputer(strategy="median")),
+                    ("scaler",StandardScaler())
                 ]
             )
+            
+            logging.info("Num pipelines are ready...")
             
             cate_pipeline = Pipeline(
                 steps=[
                     ("imputer",SimpleImputer(strategy="most_frequent")),
-                    ("one_hot_encoder",OneHotEncoder),
-                    ("scalar",StandardScalar())
+                    ("one_hot_encoder",OneHotEncoder()),
+                    ("scaler",StandardScaler())
                 ]
             )
+            logging.info("Cate pipelines are ready...")
             
             logging.info("num_pipeline and cate_pipeline are ready to use...")
             
@@ -59,10 +64,13 @@ class data_transformation:
             
             logging.info("Train and Test data fetched successfully in data transformer...")
             
-            preprocessing_obj_train = self.get_transformation_object(train_path)
-            preprocessing_obj_test = self.get_transformation_object(test_path)
+            preprocessing_obj_train = self.get_transformation_object()
             
-            target_column = "Salary Estimate"
+            preprocessing_obj_test = self.get_transformation_object()
+            
+            logging.info("Preprocessing objects are set...")
+            
+            target_column = "Salary"
             
             x_train = train_df.drop([target_column],axis=1)
             y_train = train_df[target_column]
@@ -71,7 +79,12 @@ class data_transformation:
             
             logging.info(f"Applying preprocessing object on training dataset and testing dataset...")
             
-            x_arr = preprocessing_obj_train.fit_transform(x_train)
+            # for col in x_train.columns:
+            #     print(col, type(x_train[col][0]))
+                
+            print("bye")
+            x_arr = preprocessing_obj_train.transform(x_train)
+            print("hi")
             y_arr = np.array(y_train)
             x_test_arr = preprocessing_obj_test.fit_transform(x_test)
             y_test_arr = np.array(y_test)
@@ -89,8 +102,12 @@ class data_transformation:
             return(
                 train_arr,
                 test_arr,
-                self.data_transformer_config.preprocessor_ob_file_path
+                # self.data_transformer_config.preprocessor_ob_file_path
             )
             
         except Exception as e:
             CustomException(e,sys)
+            
+if __name__ == "__main__":
+    obj = data_transformation()
+    obj.initiate_data_transoformer("artifacts/train.csv","artifacts/test.csv")

@@ -146,7 +146,8 @@ class data_cleaning:
             
             df = df.drop_duplicates()
             
-            df = df.drop(['Job Title','Type of ownership','min_revenue','max_revenue','tf','Revenue','min_salary','max_salary','min_size','max_size','Founded','Competitors','Location','Headquarters'], axis=1)          
+            df['Salary'] = df['Salary Estimate']
+            df = df.drop(['Job Title','Type of ownership', 'Salary Estimate','min_revenue','max_revenue','tf','Revenue','min_salary','max_salary','min_size','max_size','Founded','Competitors','Location','Headquarters'], axis=1)          
             
             df.to_csv(self.cleaning_config.clean_data_path, index=False, header=True)
             logging.info('Clean_data file is saved successfully...')

@@ -5,6 +5,8 @@ from src.logger import logging
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
+from data_transformation import data_transformation
+from model_trainer import model_trainer
 
 @dataclass
 class data_ingesion_config:
@@ -38,4 +40,12 @@ class data_ingesion:
         except Exception as e:
             raise CustomException(e,sys)
         
-        
+if __name__ == '__main__':
+    obj = data_ingesion()
+    train_data,test_data = obj.initiate_data_ingesion()
+    data_transformation = data_transformation()
+    train_arr,test_arr = data_transformation.initiate_data_transoformer(train_data, test_data)
+    model_trainer = model_trainer()
+    model_trainer.initiate_model_trainer(train_arr,test_arr)
+    
+    
