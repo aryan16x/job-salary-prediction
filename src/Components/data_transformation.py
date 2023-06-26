@@ -6,7 +6,7 @@ from src.exception import CustomException
 from src.logger import logging
 from src.utils import save_object
 from dataclasses import dataclass
-from sklearn.preprocessing import OneHotEncoder,StandardScaler
+from sklearn.preprocessing import OneHotEncoder,StandardScaler,OrdinalEncoder
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
@@ -31,13 +31,13 @@ class data_transformation:
                     ("scaler",StandardScaler())
             ])
             
-            logging.info("Num pipelines are ready...")
+            logging.info("Num pipeline is ready...")
             
             cate_pipeline = Pipeline([
                     ("imputer",SimpleImputer(strategy="most_frequent")),
-                    ("one_hot_encoder",OneHotEncoder()),
+                    ("one_hot_encoder",OneHotEncoder())
             ])
-            logging.info("Cate pipelines are ready...")
+            logging.info("Cate pipeline is ready...")
             
             logging.info("num_pipeline and cate_pipeline are ready to use...")
             
