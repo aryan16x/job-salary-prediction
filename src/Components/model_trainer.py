@@ -56,6 +56,8 @@ class model_trainer:
             
             logging.info('Best model found...')
             
+            print(best_model_name," : ",best_model_score)
+            
             save_object(
                 file_path = self.trainer_config.trained_model_path,
                 obj = best_model
