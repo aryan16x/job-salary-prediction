@@ -1,7 +1,5 @@
 # Salary Prediction Model
 
----
-
 ## Introduction
 
 * In this Project, We will explore the development and Implementation of a salary prediction model for job positions in the fields specifically related to Data Science and Machine Learning. The primary goal of this project is to build a reliable model that accurately predicts salaries based on various factors related to job roles, skills, experience, and other relavent features.
@@ -11,6 +9,10 @@
 * Nowadays, the data science related jobs have witnessed significant growth in recent years, leading to an incresed demand for professionals with expertise in these domains. As organizarions strive to stay competitive in the data-driven era, attracting and retaining top telent in these fields has become crucial. Consequently, both job seekers and employers often face challenges in negotiating salaries and understanding the factors that contribute to compensation.
 
 * The purpose of this salary prediction model is to provide insights into the expected salary ranges for specific job positions, thereby assisting job seekers in making informed decisions and helping employers set appropriate compensation packages. By leveraging historical data and machine learning techniques, we aim to build a model that can accurately estimate salaries based on relevant features.
+
+## TechStack used
+
+**pandas, numpy, matplotlib, scikit-learn, dill**
 
 ## Project workflow
 
@@ -126,3 +128,28 @@ This process has been done in total 16 following steps.
 
 1. Pipeline setup for numerical and categorical data
 2. Train and Test split
+
+- Used Pipeline from sklearn to create numerical and categorical pipelines.
+- and also used train_test_split from sklearn preprocessing library to generate train and test dataset.
+
+## Model Development & Training
+
+- Initialized many different regression models from sklearn.
+- Train every model with the training dataset.
+
+## Results
+
+- We got the different r2_score for different models, following table represents the used model and accuracy deatils.
+
+| Model Name | r2 Score |
+|------------------------------|----------------------|
+| Random Forest Regressor  |  0.6659680826634391 |
+| Linear Regression  |  0.7302888149338489 |
+| K Neighbors Regressor  |  0.20815072766100906 |
+| Decision Tree Regressor  |  0.7446034394056968 |
+| XGB Regressor | 0.6513345143863596 |
+| Ada Boost Regressor  |  0.095331641001551 |
+| Gradient Boosting Regressor  |  0.40624095528537185 |
+| Lasso Regression  |  0.0183055055876834 |
+| Ridge Regression  |  0.6412810540027487 |
+| Cat Boost Regressor |  0.5868939445148985 |

@@ -7,7 +7,7 @@ from sklearn.ensemble  import (
     GradientBoostingRegressor,
     RandomForestRegressor
 )
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LinearRegression,Lasso,Ridge
 from sklearn.metrics import r2_score
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
@@ -36,7 +36,15 @@ class model_trainer:
             )
             models = {
                 "Random Forest": RandomForestRegressor(),
-                "Linear Regression": LinearRegression()
+                "Linear Regression": LinearRegression(),
+                "K Neighbors Regressor": KNeighborsRegressor(),
+                "Decision Tree Regressor": DecisionTreeRegressor(),
+                "XGB Regressor": XGBRegressor(),
+                "Ada Boost Regressor": AdaBoostRegressor(),
+                "Gradient Boosting Regressor": GradientBoostingRegressor(),
+                "Lasso Regression": Lasso(),
+                "Ridge Regression": Ridge(),
+                "Cat Boost Regressor": CatBoostRegressor(),
             }
             model_report:dict = evaluate_models(
                 x_train=x_train,
