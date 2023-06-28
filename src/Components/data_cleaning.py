@@ -1,17 +1,20 @@
 '''
 Data Cleaning Process
-    1. Remove Index
-    2. About job title
-    3. Parse job salary/Convert into median salary
-    4. Remove Job Description
-    5. Check if job location is headquarter or not
-    6. Split location into city and state
-    7. Avg company size
-    8. Company Age
-    9. Clean the type of ownership column
-    10. Avg Revenue of the company
-    11. Count competitors if any
-    12. also check null values in any step
+    1. index : Number of the row
+    2. Job Title : Represent the field/area of the job
+    3. Salary Estimate : Avg. salary per hour in $
+    4. Job Description : Describe the job role and day-to-day responsibility
+    5. Rating : rating of the company from their employees
+    6. Company Name : Name of the company
+    7. Location : Location of the job
+    8. Headquarters : Location of company's headquarters
+    9. Size : Number of employees working in the company
+    10. Founded : The year in which company was started/founded
+    11. Type of ownership : Represents the who is the main stackholder in the company
+    12. Industry : Industry of the Job
+    13. Sector : Sector of the Job
+    14. Revenue : Company's yearly total revenue
+    15. Competitors : Company who has similar kind of jobs or products in the market
 '''
 
 import sys

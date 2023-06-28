@@ -1,0 +1,40 @@
+job_salary_prediction
+├── .gitignore
+├── artifacts
+│   ├── clean_data.csv
+│   ├── model.pkl
+│   ├── preprocessor.pkl
+│   ├── raw_data.csv
+│   ├── test.csv
+│   └── train.csv
+├── README.md
+├── requirements.txt
+├── setup.py
+├── src
+│   ├── Analysis
+│   │   └── eda.ipynb
+│   ├── Components
+│   │   ├── data_cleaning.py
+│   │   ├── data_ingesion.py
+│   │   ├── data_transformation.py
+│   │   ├── model_trainer.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── data_transformation.cpython-311.pyc
+│   │       └── model_trainer.cpython-311.pyc
+│   ├── exception.py
+│   ├── logger.py
+│   ├── Pipe
+│   │   ├── prediction_pipeline.py
+│   │   └── __init__.py
+│   ├── utils.py
+│   ├── __init__.py
+│   └── __pycache__
+│       ├── exception.cpython-310.pyc
+│       ├── exception.cpython-311.pyc
+│       ├── logger.cpython-310.pyc
+│       ├── logger.cpython-311.pyc
+│       ├── utils.cpython-311.pyc
+│       ├── __init__.cpython-310.pyc
+│       └── __init__.cpython-311.pyc
+└── work_flow.txt

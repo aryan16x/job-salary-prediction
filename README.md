@@ -1,5 +1,27 @@
 # Salary Prediction Model
 
+## Table of Contents
+
+- [Salary Prediction Model](#salary-prediction-model)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Overview](#overview)
+  - [TechStack used](#techstack-used)
+  - [File structure](#file-structure)
+  - [How to run??](#how-to-run)
+  - [Project workflow](#project-workflow)
+  - [Business Requirements](#business-requirements)
+  - [Proposed Solution](#proposed-solution)
+  - [Approach](#approach)
+  - [Data Preprocessing](#data-preprocessing)
+    - [Data Importing/Collection](#data-importingcollection)
+    - [Data Understanding (Attributes)](#data-understanding-attributes)
+    - [Data Inspection](#data-inspection)
+    - [Data Cleaning \& Feature Engineering](#data-cleaning--feature-engineering)
+  - [Data Transformation](#data-transformation)
+  - [Model Development \& Training](#model-development--training)
+  - [Results](#results)
+
 ## Introduction
 
 * In this Project, We will explore the development and Implementation of a salary prediction model for job positions in the fields specifically related to Data Science and Machine Learning. The primary goal of this project is to build a reliable model that accurately predicts salaries based on various factors related to job roles, skills, experience, and other relavent features.
@@ -13,6 +35,67 @@
 ## TechStack used
 
 **pandas, numpy, matplotlib, scikit-learn, dill**
+
+## File structure
+
+job_salary_prediction <br>
+├── artifacts <br>
+│   ├── clean_data.csv <br>
+│   ├── model.pkl <br>
+│   ├── preprocessor.pkl <br>
+│   ├── raw_data.csv <br>
+│   ├── test.csv <br>
+│   └── train.csv <br>
+├── README.md <br>
+├── requirements.txt <br>
+├── setup.py <br>
+├── src <br>
+│   ├── Analysis <br>
+│   │   └── eda.ipynb <br>
+│   ├── Components <br>
+│   │   ├── data_cleaning.py <br>
+│   │   ├── data_ingesion.py <br>
+│   │   ├── data_transformation.py <br>
+│   │   ├── model_trainer.py <br>
+│   │   ├── __init__.py <br>
+│   │   └── __pycache__ <br>
+│   │       ├── data_transformation.cpython-311.pyc <br>
+│   │       └── model_trainer.cpython-311.pyc <br>
+│   ├── exception.py <br>
+│   ├── logger.py <br>
+│   ├── Pipe <br>
+│   │   ├── prediction_pipeline.py <br>
+│   │   └── __init__.py <br>
+│   ├── utils.py <br>
+│   ├── __init__.py <br>
+│   └── __pycache__ <br>
+│       ├── exception.cpython-310.pyc <br>
+│       ├── exception.cpython-311.pyc <br>
+│       ├── logger.cpython-310.pyc <br>
+│       ├── logger.cpython-311.pyc <br>
+│       ├── utils.cpython-311.pyc <br>
+│       ├── __init__.cpython-310.pyc <br>
+│       └── __init__.cpython-311.pyc <br>
+└── work_flow.txt <br>
+
+## How to run??
+
+Clone the Repository <br>
+```git clone https://github.com/aryan16x/job-salary-prediction```
+
+Navigate to the Directory <br>
+```cd job-salary-prediction```
+
+Install Dependencies <br>
+```pip install -r requirements.txt```
+
+> Activate the virtual environment
+
+For Data Cleaning - Run the File <br>
+```python src/Components/data_cleaning.py```
+
+For model training - Run the File <br>
+```python src/Components/model_ingesion.py```
 
 ## Project workflow
 
