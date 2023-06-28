@@ -2,23 +2,25 @@
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Overview](#overview)
-- [TechStack used](#techstack-used)
-- [File structure](#file-structure)
-- [How to run??](#how-to-run)
-- [Project workflow](#project-workflow)
-- [Business Requirements](#business-requirements)
-- [Proposed Solution](#proposed-solution)
-- [Approach](#approach)
-- [Data Preprocessing](#data-preprocessing)
-  - [Data Importing/Collection](#data-importingcollection)
-  - [Data Understanding (Attributes)](#data-understanding-attributes)
-  - [Data Inspection](#data-inspection)
-  - [Data Cleaning \& Feature Engineering](#data-cleaning--feature-engineering)
-- [Data Transformation](#data-transformation)
-- [Model Development \& Training](#model-development--training)
-- [Results](#results)
+- [Salary Prediction Model](#salary-prediction-model)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Overview](#overview)
+  - [TechStack used](#techstack-used)
+  - [File structure](#file-structure)
+  - [Project workflow](#project-workflow)
+  - [Business Requirements](#business-requirements)
+  - [Proposed Solution](#proposed-solution)
+  - [Approach](#approach)
+  - [Data Preprocessing](#data-preprocessing)
+    - [Data Importing/Collection](#data-importingcollection)
+    - [Data Understanding (Attributes)](#data-understanding-attributes)
+    - [Data Inspection](#data-inspection)
+    - [Data Cleaning \& Feature Engineering](#data-cleaning--feature-engineering)
+  - [Data Transformation](#data-transformation)
+  - [Model Development \& Training](#model-development--training)
+  - [Results](#results)
+  - [Getting Started](#getting-started)
 
 ## Introduction
 
@@ -75,25 +77,6 @@ job_salary_prediction <br>
 │       ├── __init__.cpython-310.pyc <br>
 │       └── __init__.cpython-311.pyc <br>
 └── work_flow.txt <br>
-
-## How to run??
-
-Clone the Repository <br>
-```git clone https://github.com/aryan16x/job-salary-prediction```
-
-Navigate to the Directory <br>
-```cd job-salary-prediction```
-
-Install Dependencies <br>
-```pip install -r requirements.txt```
-
-> Activate the virtual environment
-
-For Data Cleaning - Run the File <br>
-```python src/Components/data_cleaning.py```
-
-For model training - Run the File <br>
-```python src/Components/model_ingesion.py```
 
 ## Project workflow
 
@@ -234,3 +217,22 @@ This process has been done in total 16 following steps.
 | Lasso Regression  |  0.0183055055876834 |
 | Ridge Regression  |  0.6412810540027487 |
 | Cat Boost Regressor |  0.5868939445148985 |
+
+## Getting Started
+
+Clone the Repository <br>
+```git clone https://github.com/aryan16x/job-salary-prediction```
+
+Navigate to the Directory <br>
+```cd job-salary-prediction```
+
+Install Dependencies <br>
+```pip install -r requirements.txt```
+
+> Activate the virtual environment
+
+For Data Cleaning - Run the File <br>
+```python src/Components/data_cleaning.py```
+
+For model training - Run the File <br>
+```python src/Components/model_ingesion.py```
